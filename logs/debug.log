@@ -1,0 +1,2347 @@
+INFO 2025-03-13 13:52:51,130 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 13:53:43,243 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 14:11:20,115 autoreload Watching for file changes with StatReloader
+WARNING 2025-03-13 14:11:24,605 log Not Found: /
+WARNING 2025-03-13 14:11:24,606 basehttp "GET / HTTP/1.1" 404 3515
+WARNING 2025-03-13 14:11:25,322 log Not Found: /favicon.ico
+WARNING 2025-03-13 14:11:25,323 basehttp "GET /favicon.ico HTTP/1.1" 404 3566
+INFO 2025-03-13 14:11:44,939 basehttp "GET /api/docs/ HTTP/1.1" 200 4644
+INFO 2025-03-13 14:11:49,058 basehttp "GET /api/schema/ HTTP/1.1" 200 305429
+WARNING 2025-03-13 14:12:29,416 log Not Found: /
+WARNING 2025-03-13 14:12:29,418 basehttp "GET / HTTP/1.1" 404 3515
+INFO 2025-03-13 14:12:54,301 basehttp "GET /api/schema/ HTTP/1.1" 200 140442
+INFO 2025-03-13 14:17:55,311 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-03-13 14:17:55,363 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4240
+INFO 2025-03-13 14:17:55,843 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2025-03-13 14:17:55,844 basehttp "GET /static/admin/css/base.css HTTP/1.1" 200 22092
+INFO 2025-03-13 14:17:55,854 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2025-03-13 14:17:55,860 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2804
+INFO 2025-03-13 14:17:55,861 basehttp "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2025-03-13 14:17:55,863 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 200 17972
+INFO 2025-03-13 14:17:55,865 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-03-13 14:18:00,771 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-03-13 14:18:00,865 basehttp "GET /admin/ HTTP/1.1" 200 5410
+INFO 2025-03-13 14:18:00,888 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-03-13 14:18:00,950 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-03-13 14:18:00,950 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-03-13 14:18:21,266 basehttp "GET /admin/ HTTP/1.1" 200 5410
+INFO 2025-03-13 14:23:20,670 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 14:23:27,474 basehttp "GET /admin/ HTTP/1.1" 200 19319
+INFO 2025-03-13 14:23:27,495 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-03-13 14:23:27,499 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-03-13 14:23:27,499 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-03-13 14:23:27,499 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2025-03-13 14:23:27,500 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-03-13 14:23:27,501 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-03-13 14:23:27,652 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-03-13 14:23:27,654 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-03-13 14:23:27,654 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2025-03-13 14:23:59,697 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 22036
+INFO 2025-03-13 14:23:59,825 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 14:24:00,298 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-03-13 14:24:00,300 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-03-13 14:24:00,306 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-03-13 14:24:00,320 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-03-13 14:24:00,328 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2025-03-13 14:24:00,332 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-03-13 14:24:00,333 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-03-13 14:24:00,335 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9097
+INFO 2025-03-13 14:24:00,338 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2025-03-13 14:24:00,342 basehttp "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2025-03-13 14:24:00,342 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+INFO 2025-03-13 14:24:00,346 basehttp "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-03-13 14:24:00,348 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2025-03-13 14:24:00,369 basehttp "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-03-13 14:24:00,370 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2025-03-13 14:24:00,371 basehttp "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2025-03-13 14:24:04,772 basehttp "GET /admin/accounts/user/1/change/ HTTP/1.1" 200 43716
+INFO 2025-03-13 14:24:04,832 basehttp "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+INFO 2025-03-13 14:24:04,833 basehttp "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15502
+INFO 2025-03-13 14:24:04,834 basehttp "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2025-03-13 14:24:04,834 basehttp "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2025-03-13 14:24:04,841 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-03-13 14:24:04,842 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 200 8794
+INFO 2025-03-13 14:24:04,902 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 14:24:04,902 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 200 11564
+INFO 2025-03-13 14:24:04,907 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-03-13 14:24:05,005 basehttp "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2025-03-13 14:24:05,005 basehttp "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2025-03-13 14:24:05,005 basehttp "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2025-03-13 14:24:05,006 basehttp "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2025-03-13 14:24:05,007 basehttp "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2025-03-13 14:24:36,077 autoreload C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\apps\core\admin.py changed, reloading.
+INFO 2025-03-13 14:24:36,857 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 14:29:40,658 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 14:29:47,570 basehttp "GET /admin/accounts/user/1/change/ HTTP/1.1" 200 43716
+INFO 2025-03-13 14:29:47,601 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-03-13 14:29:47,601 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-03-13 14:29:47,601 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-03-13 14:29:47,602 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-03-13 14:29:47,602 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-03-13 14:29:47,668 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 14:29:47,762 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-03-13 14:29:47,762 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-03-13 14:29:50,089 basehttp "GET /admin/accounts/user/1/change/ HTTP/1.1" 200 43716
+INFO 2025-03-13 14:29:50,201 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 14:29:52,194 basehttp "GET /admin/accounts/user/1/change/ HTTP/1.1" 200 43716
+INFO 2025-03-13 14:29:52,241 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-03-13 14:29:52,244 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-03-13 14:29:52,244 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-03-13 14:29:52,244 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-03-13 14:29:52,244 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-03-13 14:29:52,248 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-03-13 14:29:52,250 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-03-13 14:29:52,252 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-03-13 14:29:52,319 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 14:29:52,427 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2025-03-13 14:29:54,049 basehttp "GET /admin/ HTTP/1.1" 200 19319
+INFO 2025-03-13 14:29:54,089 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2025-03-13 14:29:54,164 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2025-03-13 14:31:05,553 autoreload C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\config\settings.py changed, reloading.
+INFO 2025-03-13 14:31:06,202 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 14:31:14,485 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 14:32:23,785 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 14:32:34,185 basehttp "GET /admin/ HTTP/1.1" 200 20231
+INFO 2025-03-13 14:32:42,531 basehttp "GET /admin/ HTTP/1.1" 200 20231
+INFO 2025-03-13 14:32:43,588 basehttp "GET /admin/ HTTP/1.1" 200 20231
+INFO 2025-03-13 14:32:49,705 basehttp "GET /admin/ HTTP/1.1" 200 20231
+INFO 2025-03-13 14:33:07,981 basehttp "POST /admin/logout/ HTTP/1.1" 200 3632
+INFO 2025-03-13 14:33:09,911 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-03-13 14:33:09,927 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4237
+INFO 2025-03-13 14:33:09,952 basehttp "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2025-03-13 14:33:14,654 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-03-13 14:33:14,735 basehttp "GET /admin/ HTTP/1.1" 200 20231
+INFO 2025-03-13 14:33:25,942 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-03-13 14:33:25,957 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4237
+INFO 2025-03-13 14:33:26,170 basehttp "GET /static/admin/css/base.css HTTP/1.1" 200 22092
+INFO 2025-03-13 14:33:26,188 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 200 17972
+INFO 2025-03-13 14:33:26,191 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2025-03-13 14:33:26,194 basehttp "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2025-03-13 14:33:26,197 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2804
+INFO 2025-03-13 14:33:26,197 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2025-03-13 14:33:26,200 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-03-13 14:33:31,292 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-03-13 14:33:31,378 basehttp "GET /admin/ HTTP/1.1" 200 20231
+INFO 2025-03-13 14:33:31,392 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-03-13 14:33:31,397 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-03-13 14:33:31,397 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-03-13 14:33:51,274 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 14:33:54,646 basehttp "GET /admin/ HTTP/1.1" 200 20231
+INFO 2025-03-13 14:33:55,985 basehttp "GET /admin/ HTTP/1.1" 200 20231
+INFO 2025-03-13 14:33:56,718 basehttp "GET /admin/ HTTP/1.1" 200 20231
+INFO 2025-03-13 14:34:04,662 basehttp "GET /admin/ HTTP/1.1" 200 20231
+INFO 2025-03-13 14:34:05,516 basehttp "GET /admin/ HTTP/1.1" 200 20231
+INFO 2025-03-13 14:34:15,479 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-03-13 14:34:15,632 basehttp "GET /admin/ HTTP/1.1" 200 20231
+INFO 2025-03-13 14:34:21,912 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-03-13 14:34:21,952 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4237
+INFO 2025-03-13 14:34:22,626 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 200 17972
+INFO 2025-03-13 14:34:22,633 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2025-03-13 14:34:22,634 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2025-03-13 14:34:22,652 basehttp "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2025-03-13 14:34:22,654 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2804
+INFO 2025-03-13 14:34:22,657 basehttp "GET /static/admin/css/base.css HTTP/1.1" 200 22092
+INFO 2025-03-13 14:34:22,660 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-03-13 14:34:28,881 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-03-13 14:34:29,022 basehttp "GET /admin/ HTTP/1.1" 200 20231
+INFO 2025-03-13 14:34:29,048 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-03-13 14:34:29,058 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-03-13 14:34:29,059 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-03-13 14:34:30,715 basehttp "GET /admin/accounts/organizerprofile/ HTTP/1.1" 200 19034
+INFO 2025-03-13 14:34:30,771 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-03-13 14:34:30,772 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9097
+INFO 2025-03-13 14:34:30,777 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+INFO 2025-03-13 14:34:30,786 basehttp "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-03-13 14:34:30,790 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-03-13 14:34:30,790 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-03-13 14:34:30,792 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-03-13 14:34:30,800 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-03-13 14:34:30,804 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2025-03-13 14:34:30,807 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-03-13 14:34:30,813 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2025-03-13 14:34:30,855 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 14:34:30,881 basehttp "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-03-13 14:34:30,881 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2025-03-13 14:35:27,332 autoreload C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\config\settings.py changed, reloading.
+INFO 2025-03-13 14:35:28,119 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 14:35:31,026 basehttp "GET /admin/accounts/organizerprofile/ HTTP/1.1" 200 42110
+INFO 2025-03-13 14:35:31,155 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 14:35:31,205 basehttp "GET /static/vendor/bootswatch/cosmo/bootstrap.min.css HTTP/1.1" 200 154456
+INFO 2025-03-13 14:35:31,209 basehttp "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 103009
+INFO 2025-03-13 14:35:31,214 basehttp "GET /static/jazzmin/css/main.css HTTP/1.1" 200 16969
+INFO 2025-03-13 14:35:31,214 basehttp "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 200 16264
+INFO 2025-03-13 14:35:31,223 basehttp "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+INFO 2025-03-13 14:35:31,229 basehttp "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+WARNING 2025-03-13 14:35:31,235 basehttp "GET /static/images/logo.png HTTP/1.1" 404 1859
+INFO 2025-03-13 14:35:31,244 basehttp "GET /static/jazzmin/js/main.js HTTP/1.1" 200 2391
+INFO 2025-03-13 14:35:31,244 basehttp "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+INFO 2025-03-13 14:35:31,250 basehttp "GET /static/jazzmin/js/ui-builder.js HTTP/1.1" 200 13873
+INFO 2025-03-13 14:35:31,251 basehttp "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 200 73170
+INFO 2025-03-13 14:35:31,256 basehttp "GET /static/jazzmin/js/change_list.js HTTP/1.1" 200 2252
+INFO 2025-03-13 14:35:35,371 basehttp "GET /static/vendor/bootswatch/darkly/bootstrap.min.css HTTP/1.1" 200 164202
+INFO 2025-03-13 14:35:35,456 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 25392
+INFO 2025-03-13 14:35:35,461 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 156400
+WARNING 2025-03-13 14:35:38,179 basehttp "GET /static/images/logo.png HTTP/1.1" 404 1859
+ERROR 2025-03-13 14:35:54,178 log Internal Server Error: /admin/events/customformfield/
+Traceback (most recent call last):
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ERREUR:  la relation « events_customformfield » n'existe pas
+LINE 1: SELECT COUNT(*) AS "__count" FROM "events_customformfield"
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1999, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 866, in get_changelist_instance
+    return ChangeList(
+        request,
+    ...<12 lines>...
+        self.search_help_text,
+    )
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\views\main.py", line 146, in __init__
+    self.get_results(request)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\views\main.py", line 313, in get_results
+    result_count = paginator.count
+                   ^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\paginator.py", line 110, in count
+    return c()
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\query.py", line 620, in count
+    return self.query.get_count(using=self.db)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\query.py", line 630, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\query.py", line 616, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: ERREUR:  la relation « events_customformfield » n'existe pas
+LINE 1: SELECT COUNT(*) AS "__count" FROM "events_customformfield"
+                                          ^
+
+ERROR 2025-03-13 14:35:54,215 basehttp "GET /admin/events/customformfield/ HTTP/1.1" 500 200190
+INFO 2025-03-13 14:36:00,372 basehttp "GET /admin/accounts/organizerprofile/ HTTP/1.1" 200 42110
+ERROR 2025-03-13 14:36:01,611 log Internal Server Error: /admin/events/customformfield/
+Traceback (most recent call last):
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ERREUR:  la relation « events_customformfield » n'existe pas
+LINE 1: SELECT COUNT(*) AS "__count" FROM "events_customformfield"
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1999, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 866, in get_changelist_instance
+    return ChangeList(
+        request,
+    ...<12 lines>...
+        self.search_help_text,
+    )
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\views\main.py", line 146, in __init__
+    self.get_results(request)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\views\main.py", line 313, in get_results
+    result_count = paginator.count
+                   ^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\paginator.py", line 110, in count
+    return c()
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\query.py", line 620, in count
+    return self.query.get_count(using=self.db)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\query.py", line 630, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\query.py", line 616, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: ERREUR:  la relation « events_customformfield » n'existe pas
+LINE 1: SELECT COUNT(*) AS "__count" FROM "events_customformfield"
+                                          ^
+
+ERROR 2025-03-13 14:36:01,624 basehttp "GET /admin/events/customformfield/ HTTP/1.1" 500 200190
+INFO 2025-03-13 14:36:02,760 basehttp "GET /admin/accounts/organizerprofile/ HTTP/1.1" 200 42110
+ERROR 2025-03-13 14:36:03,825 log Internal Server Error: /admin/events/event/
+Traceback (most recent call last):
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ERREUR:  la relation « events_eventcategory » n'existe pas
+LINE 1: ...description", "events_eventcategory"."image" FROM "events_ev...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1999, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 866, in get_changelist_instance
+    return ChangeList(
+        request,
+    ...<12 lines>...
+        self.search_help_text,
+    )
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\views\main.py", line 145, in __init__
+    self.queryset = self.get_queryset(request)
+                    ~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\views\main.py", line 545, in get_queryset
+    ) = self.get_filters(request)
+        ~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\views\main.py", line 216, in get_filters
+    spec = field_list_filter_class(
+        field,
+    ...<4 lines>...
+        field_path=field_path,
+    )
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\filters.py", line 217, in create
+    return list_filter_class(
+        field, request, params, model, model_admin, field_path=field_path
+    )
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\filters.py", line 232, in __init__
+    self.lookup_choices = self.field_choices(field, request, model_admin)
+                          ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\filters.py", line 273, in field_choices
+    return field.get_choices(include_blank=False, ordering=ordering)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\fields\__init__.py", line 1077, in get_choices
+    (choice_func(x), str(x)) for x in qs
+                                      ^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\query.py", line 400, in __iter__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+    )
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: ERREUR:  la relation « events_eventcategory » n'existe pas
+LINE 1: ...description", "events_eventcategory"."image" FROM "events_ev...
+                                                             ^
+
+ERROR 2025-03-13 14:36:03,845 basehttp "GET /admin/events/event/ HTTP/1.1" 500 218131
+INFO 2025-03-13 14:36:05,546 basehttp "GET /admin/accounts/organizerprofile/ HTTP/1.1" 200 42110
+ERROR 2025-03-13 14:36:09,101 log Internal Server Error: /admin/registrations/discount/
+Traceback (most recent call last):
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ERREUR:  la relation « registrations_discount » n'existe pas
+LINE 1: SELECT COUNT(*) AS "__count" FROM "registrations_discount"
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1999, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 866, in get_changelist_instance
+    return ChangeList(
+        request,
+    ...<12 lines>...
+        self.search_help_text,
+    )
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\views\main.py", line 146, in __init__
+    self.get_results(request)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\views\main.py", line 313, in get_results
+    result_count = paginator.count
+                   ^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\paginator.py", line 110, in count
+    return c()
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\query.py", line 620, in count
+    return self.query.get_count(using=self.db)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\query.py", line 630, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\query.py", line 616, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: ERREUR:  la relation « registrations_discount » n'existe pas
+LINE 1: SELECT COUNT(*) AS "__count" FROM "registrations_discount"
+                                          ^
+
+ERROR 2025-03-13 14:36:09,114 basehttp "GET /admin/registrations/discount/ HTTP/1.1" 500 200338
+INFO 2025-03-13 14:36:10,503 basehttp "GET /admin/accounts/organizerprofile/ HTTP/1.1" 200 42110
+ERROR 2025-03-13 14:36:11,769 log Internal Server Error: /admin/registrations/ticketpurchase/
+Traceback (most recent call last):
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ERREUR:  la relation « registrations_ticketpurchase » n'existe pas
+LINE 1: SELECT COUNT(*) AS "__count" FROM "registrations_ticketpurch...
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1999, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 866, in get_changelist_instance
+    return ChangeList(
+        request,
+    ...<12 lines>...
+        self.search_help_text,
+    )
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\views\main.py", line 146, in __init__
+    self.get_results(request)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\views\main.py", line 313, in get_results
+    result_count = paginator.count
+                   ^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\paginator.py", line 110, in count
+    return c()
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\query.py", line 620, in count
+    return self.query.get_count(using=self.db)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\query.py", line 630, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\query.py", line 616, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: ERREUR:  la relation « registrations_ticketpurchase » n'existe pas
+LINE 1: SELECT COUNT(*) AS "__count" FROM "registrations_ticketpurch...
+                                          ^
+
+ERROR 2025-03-13 14:36:11,783 basehttp "GET /admin/registrations/ticketpurchase/ HTTP/1.1" 500 200565
+INFO 2025-03-13 14:36:13,269 basehttp "GET /admin/accounts/organizerprofile/ HTTP/1.1" 200 42110
+INFO 2025-03-13 14:36:21,526 basehttp "GET /admin/ HTTP/1.1" 200 67474
+WARNING 2025-03-13 14:36:21,576 basehttp "GET /static/images/logo.png HTTP/1.1" 404 1859
+INFO 2025-03-13 14:36:51,152 basehttp "GET /admin/password_change/ HTTP/1.1" 200 42919
+INFO 2025-03-13 14:36:51,193 basehttp "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2025-03-13 14:36:51,194 basehttp "GET /static/vendor/bootswatch/cosmo/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2025-03-13 14:36:51,196 basehttp "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2025-03-13 14:36:51,197 basehttp "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+INFO 2025-03-13 14:36:51,206 basehttp "GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+INFO 2025-03-13 14:36:51,206 basehttp "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2025-03-13 14:36:51,211 basehttp "GET /static/jazzmin/js/ui-builder.js HTTP/1.1" 304 0
+INFO 2025-03-13 14:36:51,219 basehttp "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+WARNING 2025-03-13 14:36:51,219 basehttp "GET /static/images/logo.png HTTP/1.1" 404 1859
+INFO 2025-03-13 14:36:51,219 basehttp "GET /static/vendor/bootswatch/darkly/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2025-03-13 14:36:55,378 basehttp "GET /admin/accounts/user/1/change/ HTTP/1.1" 200 76630
+INFO 2025-03-13 14:36:55,409 basehttp "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 304 0
+INFO 2025-03-13 14:36:55,414 basehttp "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2025-03-13 14:36:55,415 basehttp "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+INFO 2025-03-13 14:36:55,416 basehttp "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2025-03-13 14:36:55,419 basehttp "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15502
+INFO 2025-03-13 14:36:55,428 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+WARNING 2025-03-13 14:36:55,428 basehttp "GET /static/images/logo.png HTTP/1.1" 404 1859
+INFO 2025-03-13 14:36:55,435 basehttp "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 304 0
+INFO 2025-03-13 14:36:55,436 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-03-13 14:36:55,441 basehttp "GET /static/jazzmin/js/change_form.js HTTP/1.1" 200 6052
+INFO 2025-03-13 14:36:55,487 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 14:37:11,663 basehttp "GET /static/jazzmin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2025-03-13 14:37:46,597 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 49549
+INFO 2025-03-13 14:37:46,623 basehttp "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+WARNING 2025-03-13 14:37:46,628 basehttp "GET /static/images/logo.png HTTP/1.1" 404 1859
+INFO 2025-03-13 14:37:46,629 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2025-03-13 14:37:46,635 basehttp "GET /static/jazzmin/js/change_list.js HTTP/1.1" 304 0
+INFO 2025-03-13 14:37:46,686 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 14:37:50,787 basehttp "GET /admin/auth/group/ HTTP/1.1" 200 41391
+WARNING 2025-03-13 14:37:50,837 basehttp "GET /static/images/logo.png HTTP/1.1" 404 1859
+INFO 2025-03-13 14:37:50,905 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 14:37:53,836 basehttp "GET /admin/accounts/organizerprofile/ HTTP/1.1" 200 42110
+WARNING 2025-03-13 14:37:53,878 basehttp "GET /static/images/logo.png HTTP/1.1" 404 1859
+INFO 2025-03-13 14:37:53,953 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 14:37:57,059 basehttp "GET /admin/accounts/organizerprofile/add/ HTTP/1.1" 200 48603
+INFO 2025-03-13 14:37:57,098 basehttp "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2025-03-13 14:37:57,101 basehttp "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2025-03-13 14:37:57,108 basehttp "GET /static/vendor/bootswatch/cosmo/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2025-03-13 14:37:57,113 basehttp "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+INFO 2025-03-13 14:37:57,119 basehttp "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+WARNING 2025-03-13 14:37:57,143 basehttp "GET /static/images/logo.png HTTP/1.1" 404 1859
+INFO 2025-03-13 14:37:57,146 basehttp "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+INFO 2025-03-13 14:37:57,150 basehttp "GET /static/jazzmin/js/ui-builder.js HTTP/1.1" 304 0
+INFO 2025-03-13 14:37:57,150 basehttp "GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+INFO 2025-03-13 14:37:57,160 basehttp "GET /static/vendor/bootswatch/darkly/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2025-03-13 14:37:57,335 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+ERROR 2025-03-13 14:38:01,713 log Internal Server Error: /admin/events/customformfield/
+Traceback (most recent call last):
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ERREUR:  la relation « events_customformfield » n'existe pas
+LINE 1: SELECT COUNT(*) AS "__count" FROM "events_customformfield"
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1999, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 866, in get_changelist_instance
+    return ChangeList(
+        request,
+    ...<12 lines>...
+        self.search_help_text,
+    )
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\views\main.py", line 146, in __init__
+    self.get_results(request)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\views\main.py", line 313, in get_results
+    result_count = paginator.count
+                   ^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\paginator.py", line 110, in count
+    return c()
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\query.py", line 620, in count
+    return self.query.get_count(using=self.db)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\query.py", line 630, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\query.py", line 616, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: ERREUR:  la relation « events_customformfield » n'existe pas
+LINE 1: SELECT COUNT(*) AS "__count" FROM "events_customformfield"
+                                          ^
+
+ERROR 2025-03-13 14:38:01,731 basehttp "GET /admin/events/customformfield/ HTTP/1.1" 500 200328
+INFO 2025-03-13 14:38:16,379 basehttp "GET /admin/accounts/organizerprofile/add/ HTTP/1.1" 200 48603
+WARNING 2025-03-13 14:38:16,431 basehttp "GET /static/images/logo.png HTTP/1.1" 404 1859
+ERROR 2025-03-13 14:38:19,656 log Internal Server Error: /admin/events/eventimage/
+Traceback (most recent call last):
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ERREUR:  la relation « events_eventimage » n'existe pas
+LINE 1: SELECT COUNT(*) AS "__count" FROM "events_eventimage"
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1999, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 866, in get_changelist_instance
+    return ChangeList(
+        request,
+    ...<12 lines>...
+        self.search_help_text,
+    )
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\views\main.py", line 146, in __init__
+    self.get_results(request)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\views\main.py", line 313, in get_results
+    result_count = paginator.count
+                   ^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\paginator.py", line 110, in count
+    return c()
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\query.py", line 620, in count
+    return self.query.get_count(using=self.db)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\query.py", line 630, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\query.py", line 616, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: ERREUR:  la relation « events_eventimage » n'existe pas
+LINE 1: SELECT COUNT(*) AS "__count" FROM "events_eventimage"
+                                          ^
+
+ERROR 2025-03-13 14:38:19,670 basehttp "GET /admin/events/eventimage/ HTTP/1.1" 500 199678
+INFO 2025-03-13 14:38:21,933 basehttp "GET /admin/accounts/organizerprofile/add/ HTTP/1.1" 200 48603
+ERROR 2025-03-13 14:38:26,640 log Internal Server Error: /admin/registrations/tickettype/
+Traceback (most recent call last):
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ERREUR:  la relation « registrations_tickettype » n'existe pas
+LINE 1: SELECT COUNT(*) AS "__count" FROM "registrations_tickettype"
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1999, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 866, in get_changelist_instance
+    return ChangeList(
+        request,
+    ...<12 lines>...
+        self.search_help_text,
+    )
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\views\main.py", line 146, in __init__
+    self.get_results(request)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\views\main.py", line 313, in get_results
+    result_count = paginator.count
+                   ^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\paginator.py", line 110, in count
+    return c()
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\query.py", line 620, in count
+    return self.query.get_count(using=self.db)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\query.py", line 630, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\query.py", line 616, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: ERREUR:  la relation « registrations_tickettype » n'existe pas
+LINE 1: SELECT COUNT(*) AS "__count" FROM "registrations_tickettype"
+                                          ^
+
+ERROR 2025-03-13 14:38:26,650 basehttp "GET /admin/registrations/tickettype/ HTTP/1.1" 500 200535
+INFO 2025-03-13 14:38:28,239 basehttp "GET /admin/accounts/organizerprofile/add/ HTTP/1.1" 200 48603
+INFO 2025-03-13 14:38:31,386 basehttp "GET /admin/ HTTP/1.1" 200 67474
+WARNING 2025-03-13 14:38:31,432 basehttp "GET /static/images/logo.png HTTP/1.1" 404 1859
+INFO 2025-03-13 14:41:04,407 autoreload C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\config\settings.py changed, reloading.
+INFO 2025-03-13 14:41:05,194 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 14:41:10,395 basehttp "GET /admin/ HTTP/1.1" 200 67551
+INFO 2025-03-13 14:41:10,415 basehttp "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2025-03-13 14:41:10,421 basehttp "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2025-03-13 14:41:10,421 basehttp "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+WARNING 2025-03-13 14:41:10,429 basehttp "GET /static/css/custom_admin.css HTTP/1.1" 404 1874
+INFO 2025-03-13 14:41:10,436 basehttp "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+WARNING 2025-03-13 14:41:10,437 basehttp "GET /static/images/logo.png HTTP/1.1" 404 1859
+INFO 2025-03-13 14:41:10,438 basehttp "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+INFO 2025-03-13 14:41:10,439 basehttp "GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+INFO 2025-03-13 14:41:10,441 basehttp "GET /static/jazzmin/js/ui-builder.js HTTP/1.1" 304 0
+INFO 2025-03-13 14:41:10,442 basehttp "GET /static/vendor/bootswatch/darkly/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2025-03-13 14:41:10,473 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2025-03-13 14:41:10,474 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2025-03-13 14:42:15,356 autoreload C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\config\settings.py changed, reloading.
+INFO 2025-03-13 14:42:16,144 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 14:42:33,478 autoreload C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\config\settings.py changed, reloading.
+INFO 2025-03-13 14:42:34,328 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 14:42:39,212 basehttp "GET /admin/ HTTP/1.1" 200 67474
+INFO 2025-03-13 14:42:39,233 basehttp "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2025-03-13 14:42:39,237 basehttp "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2025-03-13 14:42:39,240 basehttp "GET /static/vendor/bootswatch/cosmo/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2025-03-13 14:42:39,240 basehttp "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+INFO 2025-03-13 14:42:39,241 basehttp "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+INFO 2025-03-13 14:42:39,241 basehttp "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2025-03-13 14:42:39,248 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-03-13 14:42:39,251 basehttp "GET /static/vendor/bootswatch/darkly/bootstrap.min.css HTTP/1.1" 304 0
+WARNING 2025-03-13 14:42:39,253 basehttp "GET /static/images/logo.png HTTP/1.1" 404 1859
+INFO 2025-03-13 14:42:39,253 basehttp "GET /static/jazzmin/js/ui-builder.js HTTP/1.1" 304 0
+INFO 2025-03-13 14:42:39,254 basehttp "GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+ERROR 2025-03-13 14:42:45,149 log Internal Server Error: /admin/payments/invoice/
+Traceback (most recent call last):
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ERREUR:  la relation « payments_invoice » n'existe pas
+LINE 1: SELECT COUNT(*) AS "__count" FROM "payments_invoice"
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1999, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 866, in get_changelist_instance
+    return ChangeList(
+        request,
+    ...<12 lines>...
+        self.search_help_text,
+    )
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\views\main.py", line 146, in __init__
+    self.get_results(request)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\views\main.py", line 313, in get_results
+    result_count = paginator.count
+                   ^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\paginator.py", line 110, in count
+    return c()
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\query.py", line 620, in count
+    return self.query.get_count(using=self.db)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\query.py", line 630, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\query.py", line 616, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: ERREUR:  la relation « payments_invoice » n'existe pas
+LINE 1: SELECT COUNT(*) AS "__count" FROM "payments_invoice"
+                                          ^
+
+ERROR 2025-03-13 14:42:45,169 basehttp "GET /admin/payments/invoice/ HTTP/1.1" 500 199801
+INFO 2025-03-13 14:42:47,147 basehttp "GET /admin/ HTTP/1.1" 200 67474
+INFO 2025-03-13 14:42:52,932 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 49549
+INFO 2025-03-13 14:42:52,968 basehttp "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 304 0
+INFO 2025-03-13 14:42:52,972 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-03-13 14:42:52,976 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-03-13 14:42:52,977 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-03-13 14:42:52,981 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-03-13 14:42:52,982 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-03-13 14:42:52,989 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-03-13 14:42:52,995 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-03-13 14:42:53,017 basehttp "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 304 0
+WARNING 2025-03-13 14:42:53,018 basehttp "GET /static/images/logo.png HTTP/1.1" 404 1859
+INFO 2025-03-13 14:42:53,023 basehttp "GET /static/jazzmin/js/change_list.js HTTP/1.1" 304 0
+INFO 2025-03-13 14:42:53,072 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 21:45:19,281 basehttp "GET /admin/accounts/user/add/ HTTP/1.1" 200 48998
+INFO 2025-03-13 21:45:19,310 basehttp "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2025-03-13 21:45:19,318 basehttp "GET /static/vendor/bootswatch/cosmo/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2025-03-13 21:45:19,324 basehttp "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2025-03-13 21:45:19,335 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-03-13 21:45:19,336 basehttp "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+INFO 2025-03-13 21:45:19,336 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-03-13 21:45:19,337 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-03-13 21:45:19,343 basehttp "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 304 0
+INFO 2025-03-13 21:45:19,345 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-03-13 21:45:19,351 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-03-13 21:45:19,354 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-03-13 21:45:19,358 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-03-13 21:45:19,360 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-03-13 21:45:19,373 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+WARNING 2025-03-13 21:45:19,374 basehttp "GET /static/images/logo.png HTTP/1.1" 404 1859
+INFO 2025-03-13 21:45:19,379 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2025-03-13 21:45:19,379 basehttp "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2025-03-13 21:45:19,382 basehttp "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+INFO 2025-03-13 21:45:19,386 basehttp "GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+INFO 2025-03-13 21:45:19,386 basehttp "GET /static/jazzmin/js/ui-builder.js HTTP/1.1" 304 0
+INFO 2025-03-13 21:45:19,389 basehttp "GET /static/jazzmin/js/change_form.js HTTP/1.1" 304 0
+INFO 2025-03-13 21:45:19,391 basehttp "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 304 0
+INFO 2025-03-13 21:45:19,395 basehttp "GET /static/vendor/bootswatch/darkly/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2025-03-13 21:45:19,420 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 21:45:19,452 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2025-03-13 21:45:19,454 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2025-03-13 21:45:42,927 autoreload C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\config\settings.py changed, reloading.
+INFO 2025-03-13 21:45:44,219 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 21:45:47,094 basehttp "GET /admin/accounts/user/add/ HTTP/1.1" 200 24492
+INFO 2025-03-13 21:45:47,117 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-03-13 21:45:47,128 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-03-13 21:45:47,129 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-03-13 21:45:47,129 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-03-13 21:45:47,131 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-03-13 21:45:47,207 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 200 8794
+INFO 2025-03-13 21:45:47,207 basehttp "GET /static/admin/css/unusable_password_field.css HTTP/1.1" 200 663
+INFO 2025-03-13 21:45:47,213 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 200 11564
+INFO 2025-03-13 21:45:47,216 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 21:45:47,216 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-03-13 21:45:47,222 basehttp "GET /static/admin/js/unusable_password_field.js HTTP/1.1" 200 1480
+INFO 2025-03-13 21:45:47,235 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+ERROR 2025-03-13 21:45:51,919 log Internal Server Error: /admin/events/eventimage/
+Traceback (most recent call last):
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ERREUR:  la relation « events_eventimage » n'existe pas
+LINE 1: SELECT COUNT(*) AS "__count" FROM "events_eventimage"
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1999, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 866, in get_changelist_instance
+    return ChangeList(
+        request,
+    ...<12 lines>...
+        self.search_help_text,
+    )
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\views\main.py", line 146, in __init__
+    self.get_results(request)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\views\main.py", line 313, in get_results
+    result_count = paginator.count
+                   ^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\paginator.py", line 110, in count
+    return c()
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\query.py", line 620, in count
+    return self.query.get_count(using=self.db)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\query.py", line 630, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\query.py", line 616, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: ERREUR:  la relation « events_eventimage » n'existe pas
+LINE 1: SELECT COUNT(*) AS "__count" FROM "events_eventimage"
+                                          ^
+
+ERROR 2025-03-13 21:45:51,936 basehttp "GET /admin/events/eventimage/ HTTP/1.1" 500 199666
+INFO 2025-03-13 21:48:45,901 basehttp "GET /admin/accounts/user/add/ HTTP/1.1" 200 24492
+INFO 2025-03-13 21:48:52,694 autoreload C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\config\settings.py changed, reloading.
+INFO 2025-03-13 21:48:53,798 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 21:48:54,740 basehttp "GET /admin/accounts/user/add/ HTTP/1.1" 200 48998
+WARNING 2025-03-13 21:48:54,760 basehttp "GET /static/images/logo.png HTTP/1.1" 404 1859
+INFO 2025-03-13 21:48:54,815 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 21:50:53,421 autoreload C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\config\settings.py changed, reloading.
+INFO 2025-03-13 21:50:54,401 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 21:50:55,234 basehttp "GET /admin/accounts/user/add/ HTTP/1.1" 200 49004
+WARNING 2025-03-13 21:50:55,304 basehttp "GET /static/images/logo.png HTTP/1.1" 404 1859
+INFO 2025-03-13 21:50:55,352 basehttp "GET /static/vendor/bootswatch/materia/bootstrap.min.css HTTP/1.1" 200 194473
+INFO 2025-03-13 21:50:55,393 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 21:51:08,112 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 49555
+WARNING 2025-03-13 21:51:08,139 basehttp "GET /static/images/logo.png HTTP/1.1" 404 1859
+INFO 2025-03-13 21:51:08,140 basehttp "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+INFO 2025-03-13 21:51:08,143 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2025-03-13 21:51:08,145 basehttp "GET /static/jazzmin/js/change_list.js HTTP/1.1" 304 0
+INFO 2025-03-13 21:51:08,217 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 21:51:55,880 autoreload C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\config\settings.py changed, reloading.
+INFO 2025-03-13 21:51:56,692 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 21:51:59,508 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 49555
+WARNING 2025-03-13 21:51:59,544 basehttp "GET /static/images/logo.png HTTP/1.1" 404 1859
+INFO 2025-03-13 21:51:59,628 basehttp "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.1" 200 163234
+INFO 2025-03-13 21:51:59,669 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 21:53:02,376 autoreload C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\config\settings.py changed, reloading.
+INFO 2025-03-13 21:53:03,183 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 21:53:06,125 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 49555
+WARNING 2025-03-13 21:53:06,148 basehttp "GET /static/images/logo.png HTTP/1.1" 404 1859
+INFO 2025-03-13 21:53:06,209 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 21:53:07,870 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 49555
+WARNING 2025-03-13 21:53:07,900 basehttp "GET /static/images/logo.png HTTP/1.1" 404 1859
+INFO 2025-03-13 21:53:07,960 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 21:53:08,862 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 49555
+WARNING 2025-03-13 21:53:08,878 basehttp "GET /static/images/logo.png HTTP/1.1" 404 1859
+INFO 2025-03-13 21:53:08,935 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 21:53:20,457 autoreload C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\config\settings.py changed, reloading.
+INFO 2025-03-13 21:53:21,324 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 21:53:23,174 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 49562
+WARNING 2025-03-13 21:53:23,200 basehttp "GET /static/images/logo.png HTTP/1.1" 404 1859
+INFO 2025-03-13 21:53:23,261 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 21:56:01,924 autoreload C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\config\settings.py changed, reloading.
+INFO 2025-03-13 21:56:02,659 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 21:56:05,708 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 49577
+WARNING 2025-03-13 21:56:05,736 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 21:56:05,795 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+WARNING 2025-03-13 21:56:05,877 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 21:56:06,953 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 49577
+WARNING 2025-03-13 21:56:06,973 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 21:56:07,041 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 21:57:29,318 basehttp "GET /static/vendor/bootstrap/js/bootstrap.min.js.map HTTP/1.1" 200 187646
+INFO 2025-03-13 21:57:29,320 basehttp "GET /static/vendor/adminlte/js/adminlte.min.js.map HTTP/1.1" 200 129651
+INFO 2025-03-13 21:57:29,349 basehttp "GET /static/vendor/adminlte/css/adminlte.min.css.map HTTP/1.1" 200 3783134
+INFO 2025-03-13 21:58:56,504 autoreload C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\config\settings.py changed, reloading.
+INFO 2025-03-13 21:58:57,363 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 21:59:00,118 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 49593
+WARNING 2025-03-13 21:59:00,160 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 21:59:00,219 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 21:59:30,583 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 21:59:33,119 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 49577
+WARNING 2025-03-13 21:59:33,148 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 21:59:33,223 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 21:59:46,693 basehttp "GET /admin/ HTTP/1.1" 200 67502
+WARNING 2025-03-13 21:59:46,743 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 21:59:48,446 basehttp "GET /admin/ HTTP/1.1" 200 67502
+WARNING 2025-03-13 21:59:48,492 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:00:11,170 basehttp "GET /admin/admin_interface/theme/ HTTP/1.1" 200 42299
+WARNING 2025-03-13 22:00:11,202 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:00:11,268 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:00:20,144 basehttp "GET /admin/admin_interface/theme/add/ HTTP/1.1" 200 110590
+INFO 2025-03-13 22:00:20,368 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+WARNING 2025-03-13 22:00:20,380 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:00:20,470 basehttp "GET /static/colorfield/colorfield.js HTTP/1.1" 200 408
+INFO 2025-03-13 22:00:20,483 basehttp "GET /static/colorfield/jscolor/jscolor.js HTTP/1.1" 200 102106
+ERROR 2025-03-13 22:00:30,853 log Internal Server Error: /admin/events/event/
+Traceback (most recent call last):
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ERREUR:  la relation « events_eventcategory » n'existe pas
+LINE 1: ...description", "events_eventcategory"."image" FROM "events_ev...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1999, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 866, in get_changelist_instance
+    return ChangeList(
+        request,
+    ...<12 lines>...
+        self.search_help_text,
+    )
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\views\main.py", line 145, in __init__
+    self.queryset = self.get_queryset(request)
+                    ~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\views\main.py", line 545, in get_queryset
+    ) = self.get_filters(request)
+        ~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\views\main.py", line 216, in get_filters
+    spec = field_list_filter_class(
+        field,
+    ...<4 lines>...
+        field_path=field_path,
+    )
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\filters.py", line 217, in create
+    return list_filter_class(
+        field, request, params, model, model_admin, field_path=field_path
+    )
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\filters.py", line 232, in __init__
+    self.lookup_choices = self.field_choices(field, request, model_admin)
+                          ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\filters.py", line 273, in field_choices
+    return field.get_choices(include_blank=False, ordering=ordering)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\fields\__init__.py", line 1077, in get_choices
+    (choice_func(x), str(x)) for x in qs
+                                      ^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\query.py", line 400, in __iter__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+    )
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: ERREUR:  la relation « events_eventcategory » n'existe pas
+LINE 1: ...description", "events_eventcategory"."image" FROM "events_ev...
+                                                             ^
+
+ERROR 2025-03-13 22:00:30,886 basehttp "GET /admin/events/event/ HTTP/1.1" 500 218271
+INFO 2025-03-13 22:00:32,944 basehttp "GET /admin/admin_interface/theme/add/ HTTP/1.1" 200 110590
+WARNING 2025-03-13 22:00:32,993 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+ERROR 2025-03-13 22:00:34,471 log Internal Server Error: /admin/events/eventtag/
+Traceback (most recent call last):
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ERREUR:  la relation « events_eventtag » n'existe pas
+LINE 1: SELECT COUNT(*) AS "__count" FROM "events_eventtag"
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1999, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 866, in get_changelist_instance
+    return ChangeList(
+        request,
+    ...<12 lines>...
+        self.search_help_text,
+    )
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\views\main.py", line 146, in __init__
+    self.get_results(request)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\views\main.py", line 313, in get_results
+    result_count = paginator.count
+                   ^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\paginator.py", line 110, in count
+    return c()
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\query.py", line 620, in count
+    return self.query.get_count(using=self.db)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\query.py", line 630, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\query.py", line 616, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: ERREUR:  la relation « events_eventtag » n'existe pas
+LINE 1: SELECT COUNT(*) AS "__count" FROM "events_eventtag"
+                                          ^
+
+ERROR 2025-03-13 22:00:34,484 basehttp "GET /admin/events/eventtag/ HTTP/1.1" 500 199443
+INFO 2025-03-13 22:00:38,380 basehttp "GET /admin/admin_interface/theme/add/ HTTP/1.1" 200 110590
+INFO 2025-03-13 22:00:49,513 basehttp "GET /admin/ HTTP/1.1" 200 67502
+WARNING 2025-03-13 22:00:49,557 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+WARNING 2025-03-13 22:00:57,643 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:05:33,700 basehttp "GET /admin/admin_interface/theme/add/ HTTP/1.1" 200 110590
+INFO 2025-03-13 22:05:36,768 basehttp "GET /admin/ HTTP/1.1" 200 67502
+WARNING 2025-03-13 22:05:36,789 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+ERROR 2025-03-13 22:05:40,151 log Internal Server Error: /admin/notifications/notification/
+Traceback (most recent call last):
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ERREUR:  la relation « notifications_notification » n'existe pas
+LINE 1: SELECT COUNT(*) AS "__count" FROM "notifications_notificatio...
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1999, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 866, in get_changelist_instance
+    return ChangeList(
+        request,
+    ...<12 lines>...
+        self.search_help_text,
+    )
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\views\main.py", line 146, in __init__
+    self.get_results(request)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\views\main.py", line 313, in get_results
+    result_count = paginator.count
+                   ^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\paginator.py", line 110, in count
+    return c()
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\query.py", line 620, in count
+    return self.query.get_count(using=self.db)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\query.py", line 630, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\query.py", line 616, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: ERREUR:  la relation « notifications_notification » n'existe pas
+LINE 1: SELECT COUNT(*) AS "__count" FROM "notifications_notificatio...
+                                          ^
+
+ERROR 2025-03-13 22:05:40,163 basehttp "GET /admin/notifications/notification/ HTTP/1.1" 500 200679
+INFO 2025-03-13 22:08:08,134 autoreload Watching for file changes with StatReloader
+ERROR 2025-03-13 22:08:10,173 log Internal Server Error: /admin/notifications/notification/
+Traceback (most recent call last):
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ERREUR:  la relation « notifications_notification » n'existe pas
+LINE 1: SELECT COUNT(*) AS "__count" FROM "notifications_notificatio...
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1999, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 866, in get_changelist_instance
+    return ChangeList(
+        request,
+    ...<12 lines>...
+        self.search_help_text,
+    )
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\views\main.py", line 146, in __init__
+    self.get_results(request)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\views\main.py", line 313, in get_results
+    result_count = paginator.count
+                   ^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\paginator.py", line 110, in count
+    return c()
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\query.py", line 620, in count
+    return self.query.get_count(using=self.db)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\query.py", line 630, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\query.py", line 616, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: ERREUR:  la relation « notifications_notification » n'existe pas
+LINE 1: SELECT COUNT(*) AS "__count" FROM "notifications_notificatio...
+                                          ^
+
+ERROR 2025-03-13 22:08:10,180 basehttp "GET /admin/notifications/notification/ HTTP/1.1" 500 200816
+ERROR 2025-03-13 22:08:11,585 log Internal Server Error: /admin/notifications/notification/
+Traceback (most recent call last):
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ERREUR:  la relation « notifications_notification » n'existe pas
+LINE 1: SELECT COUNT(*) AS "__count" FROM "notifications_notificatio...
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1999, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 866, in get_changelist_instance
+    return ChangeList(
+        request,
+    ...<12 lines>...
+        self.search_help_text,
+    )
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\views\main.py", line 146, in __init__
+    self.get_results(request)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\views\main.py", line 313, in get_results
+    result_count = paginator.count
+                   ^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\paginator.py", line 110, in count
+    return c()
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\query.py", line 620, in count
+    return self.query.get_count(using=self.db)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\query.py", line 630, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\query.py", line 616, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: ERREUR:  la relation « notifications_notification » n'existe pas
+LINE 1: SELECT COUNT(*) AS "__count" FROM "notifications_notificatio...
+                                          ^
+
+ERROR 2025-03-13 22:08:11,589 basehttp "GET /admin/notifications/notification/ HTTP/1.1" 500 200816
+INFO 2025-03-13 22:08:12,886 basehttp "GET /admin/ HTTP/1.1" 200 67502
+INFO 2025-03-13 22:08:13,868 basehttp "GET /admin/ HTTP/1.1" 200 67502
+WARNING 2025-03-13 22:08:13,885 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:08:15,831 basehttp "GET /admin/feedback/eventflag/ HTTP/1.1" 200 43207
+WARNING 2025-03-13 22:08:15,865 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:08:15,938 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:08:17,754 basehttp "GET /admin/accounts/organizerprofile/ HTTP/1.1" 200 42138
+WARNING 2025-03-13 22:08:17,776 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:08:17,839 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:08:20,564 basehttp "GET /admin/events/customformfield/ HTTP/1.1" 200 44169
+WARNING 2025-03-13 22:08:20,618 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:08:20,679 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:08:22,122 basehttp "GET /admin/events/eventimage/ HTTP/1.1" 200 41434
+WARNING 2025-03-13 22:08:22,152 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:08:22,230 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:08:23,161 basehttp "GET /admin/events/eventcategory/ HTTP/1.1" 200 41455
+WARNING 2025-03-13 22:08:23,202 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:08:23,272 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:08:26,292 basehttp "GET /admin/registrations/discount/ HTTP/1.1" 200 42119
+WARNING 2025-03-13 22:08:26,336 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:08:26,413 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:08:27,677 basehttp "GET /admin/events/eventcategory/ HTTP/1.1" 200 41455
+WARNING 2025-03-13 22:08:27,722 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:08:27,804 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:08:29,264 basehttp "GET /admin/events/customformfield/ HTTP/1.1" 200 44169
+WARNING 2025-03-13 22:08:29,309 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:08:29,382 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:08:45,203 autoreload C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\config\settings.py changed, reloading.
+INFO 2025-03-13 22:08:46,070 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 22:08:46,924 basehttp "GET /admin/events/customformfield/ HTTP/1.1" 200 44150
+WARNING 2025-03-13 22:08:46,955 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:08:47,006 basehttp "GET /static/vendor/bootswatch/lux/bootstrap.min.css HTTP/1.1" 200 155932
+INFO 2025-03-13 22:08:47,022 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:08:51,243 basehttp "GET /admin/accounts/organizerprofile/ HTTP/1.1" 200 42119
+WARNING 2025-03-13 22:08:51,273 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:08:51,332 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:08:53,663 basehttp "GET /admin/ HTTP/1.1" 200 67483
+WARNING 2025-03-13 22:08:53,700 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+ERROR 2025-03-13 22:09:07,549 log Internal Server Error: /admin/notifications/notification/
+Traceback (most recent call last):
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: ERREUR:  la relation « notifications_notification » n'existe pas
+LINE 1: SELECT COUNT(*) AS "__count" FROM "notifications_notificatio...
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1999, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\options.py", line 866, in get_changelist_instance
+    return ChangeList(
+        request,
+    ...<12 lines>...
+        self.search_help_text,
+    )
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\views\main.py", line 146, in __init__
+    self.get_results(request)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\contrib\admin\views\main.py", line 313, in get_results
+    result_count = paginator.count
+                   ^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\core\paginator.py", line 110, in count
+    return c()
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\query.py", line 620, in count
+    return self.query.get_count(using=self.db)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\query.py", line 630, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\query.py", line 616, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: ERREUR:  la relation « notifications_notification » n'existe pas
+LINE 1: SELECT COUNT(*) AS "__count" FROM "notifications_notificatio...
+                                          ^
+
+ERROR 2025-03-13 22:09:07,575 basehttp "GET /admin/notifications/notification/ HTTP/1.1" 500 200676
+INFO 2025-03-13 22:09:33,640 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 22:09:35,889 basehttp "GET /admin/notifications/notification/ HTTP/1.1" 200 45064
+WARNING 2025-03-13 22:09:35,923 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:09:35,983 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:09:38,531 basehttp "GET /admin/notifications/notification/add/ HTTP/1.1" 200 61426
+INFO 2025-03-13 22:09:38,558 basehttp "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+INFO 2025-03-13 22:09:38,561 basehttp "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+WARNING 2025-03-13 22:09:38,566 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:09:38,570 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2025-03-13 22:09:38,578 basehttp "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2025-03-13 22:09:38,623 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:09:56,095 autoreload C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\config\settings.py changed, reloading.
+INFO 2025-03-13 22:09:56,934 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 22:09:57,667 basehttp "GET /admin/notifications/notification/add/ HTTP/1.1" 200 61432
+WARNING 2025-03-13 22:09:57,687 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:09:57,729 basehttp "GET /static/vendor/bootswatch/pulse/bootstrap.min.css HTTP/1.1" 200 155889
+INFO 2025-03-13 22:09:57,751 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:10:00,110 basehttp "GET /admin/notifications/notification/add/ HTTP/1.1" 200 61432
+WARNING 2025-03-13 22:10:00,142 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:10:00,213 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:10:04,146 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 49564
+WARNING 2025-03-13 22:10:04,173 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:10:04,228 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:10:06,150 basehttp "GET /admin/accounts/organizerprofile/ HTTP/1.1" 200 42125
+WARNING 2025-03-13 22:10:06,194 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:10:06,265 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:10:09,991 basehttp "GET /admin/events/eventcategory/ HTTP/1.1" 200 41442
+WARNING 2025-03-13 22:10:10,039 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:10:10,109 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:10:12,754 basehttp "GET /admin/accounts/organizerprofile/ HTTP/1.1" 200 42125
+WARNING 2025-03-13 22:10:12,797 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:10:12,875 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:10:22,750 basehttp "GET /admin/accounts/ HTTP/1.1" 200 41290
+WARNING 2025-03-13 22:10:22,792 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:10:24,570 basehttp "GET /admin/ HTTP/1.1" 200 67489
+WARNING 2025-03-13 22:10:24,608 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:10:42,201 basehttp "GET /admin/events/customformfield/add/ HTTP/1.1" 200 50116
+WARNING 2025-03-13 22:10:42,249 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:10:42,321 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:11:06,030 basehttp "GET /admin/events/customformfield/ HTTP/1.1" 200 44156
+WARNING 2025-03-13 22:11:06,070 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:11:06,138 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:11:09,352 basehttp "GET /admin/events/customformfield/ HTTP/1.1" 200 44156
+WARNING 2025-03-13 22:11:09,397 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:11:09,465 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:11:17,306 basehttp "GET /admin/events/eventcategory/ HTTP/1.1" 200 41442
+WARNING 2025-03-13 22:11:17,353 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:11:17,429 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:11:20,081 basehttp "GET /admin/events/eventimage/ HTTP/1.1" 200 41421
+WARNING 2025-03-13 22:11:20,134 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:11:20,202 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:11:23,209 basehttp "GET /admin/events/eventtag/ HTTP/1.1" 200 41407
+WARNING 2025-03-13 22:11:23,253 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:11:23,316 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:11:26,802 basehttp "GET /admin/events/event/ HTTP/1.1" 200 43980
+WARNING 2025-03-13 22:11:26,849 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:11:26,925 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:11:31,858 basehttp "GET /admin/events/event/add/ HTTP/1.1" 200 96531
+INFO 2025-03-13 22:11:31,905 basehttp "GET /static/admin/js/SelectBox.js HTTP/1.1" 304 0
+INFO 2025-03-13 22:11:31,921 basehttp "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 304 0
+INFO 2025-03-13 22:11:31,921 basehttp "GET /static/admin/js/inlines.js HTTP/1.1" 200 15526
+WARNING 2025-03-13 22:11:31,922 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:11:31,939 basehttp "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2025-03-13 22:11:31,944 basehttp "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2025-03-13 22:11:31,988 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:11:32,029 basehttp "GET /static/jazzmin/img/selector-icons.svg HTTP/1.1" 304 0
+INFO 2025-03-13 22:13:20,104 basehttp "GET /static/vendor/bootswatch/slate/bootstrap.min.css HTTP/1.1" 200 171632
+INFO 2025-03-13 22:13:22,244 basehttp "GET /static/vendor/bootswatch/superhero/bootstrap.min.css HTTP/1.1" 200 164559
+INFO 2025-03-13 22:13:34,540 basehttp "GET /static/vendor/bootswatch/sandstone/bootstrap.min.css HTTP/1.1" 200 163543
+INFO 2025-03-13 22:13:46,096 basehttp "GET /static/vendor/bootswatch/sketchy/bootstrap.min.css HTTP/1.1" 200 167043
+INFO 2025-03-13 22:13:50,267 basehttp "GET /static/vendor/bootswatch/spacelab/bootstrap.min.css HTTP/1.1" 200 164894
+INFO 2025-03-13 22:13:53,531 basehttp "GET /static/vendor/bootswatch/yeti/bootstrap.min.css HTTP/1.1" 200 168497
+INFO 2025-03-13 22:14:07,843 basehttp "GET /static/vendor/bootswatch/solar/bootstrap.min.css HTTP/1.1" 200 169219
+INFO 2025-03-13 22:17:06,301 basehttp "GET /admin/events/event/add/ HTTP/1.1" 200 96531
+WARNING 2025-03-13 22:17:06,361 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:17:06,422 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:23:00,654 autoreload C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\config\settings.py changed, reloading.
+INFO 2025-03-13 22:23:01,653 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 22:23:06,042 basehttp "GET /admin/events/event/add/ HTTP/1.1" 200 96646
+WARNING 2025-03-13 22:23:06,065 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:23:06,126 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:27:19,957 basehttp "GET /admin/events/customformfield/ HTTP/1.1" 200 44269
+WARNING 2025-03-13 22:27:20,009 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:27:20,072 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:27:21,631 basehttp "GET /admin/events/eventcategory/ HTTP/1.1" 200 41555
+WARNING 2025-03-13 22:27:21,677 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:27:21,751 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:27:23,164 basehttp "GET /admin/events/eventimage/ HTTP/1.1" 200 41534
+WARNING 2025-03-13 22:27:23,209 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:27:23,293 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:27:24,161 basehttp "GET /admin/events/eventtag/ HTTP/1.1" 200 41520
+WARNING 2025-03-13 22:27:24,192 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:27:24,383 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:27:25,238 basehttp "GET /admin/events/event/ HTTP/1.1" 200 44093
+WARNING 2025-03-13 22:27:25,275 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:27:25,338 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+WARNING 2025-03-13 22:27:27,940 log Not Found: /events/
+WARNING 2025-03-13 22:27:27,942 basehttp "GET /events/ HTTP/1.1" 404 3554
+INFO 2025-03-13 22:27:31,768 basehttp "GET /admin/events/event/ HTTP/1.1" 200 44093
+WARNING 2025-03-13 22:27:31,808 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:27:36,503 basehttp "GET /admin/events/event/ HTTP/1.1" 200 44093
+WARNING 2025-03-13 22:27:36,552 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:27:36,628 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:27:38,225 basehttp "GET /admin/events/eventimage/ HTTP/1.1" 200 41534
+WARNING 2025-03-13 22:27:38,256 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:27:38,317 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:27:39,289 basehttp "GET /admin/events/eventimage/add/ HTTP/1.1" 200 43105
+WARNING 2025-03-13 22:27:39,333 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:27:39,395 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:27:42,834 basehttp "GET /admin/events/event/ HTTP/1.1" 200 44093
+WARNING 2025-03-13 22:27:42,899 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:27:42,948 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:27:44,689 basehttp "GET /admin/events/customformfield/ HTTP/1.1" 200 44269
+WARNING 2025-03-13 22:27:44,732 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:27:44,808 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:27:47,189 basehttp "GET /admin/events/event/ HTTP/1.1" 200 44093
+WARNING 2025-03-13 22:27:47,237 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:27:47,314 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:27:49,161 basehttp "GET /admin/events/event/add/ HTTP/1.1" 200 96646
+WARNING 2025-03-13 22:27:49,216 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:27:49,277 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:30:50,427 basehttp "GET /admin/accounts/user/1/change/ HTTP/1.1" 200 76768
+INFO 2025-03-13 22:30:50,462 basehttp "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2025-03-13 22:30:50,464 basehttp "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2025-03-13 22:30:50,469 basehttp "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+INFO 2025-03-13 22:30:50,472 basehttp "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 304 0
+WARNING 2025-03-13 22:30:50,485 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:30:50,496 basehttp "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2025-03-13 22:30:50,499 basehttp "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+INFO 2025-03-13 22:30:50,503 basehttp "GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+INFO 2025-03-13 22:30:50,505 basehttp "GET /static/jazzmin/js/ui-builder.js HTTP/1.1" 304 0
+INFO 2025-03-13 22:30:50,507 basehttp "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 304 0
+INFO 2025-03-13 22:30:50,510 basehttp "GET /static/jazzmin/js/change_form.js HTTP/1.1" 304 0
+INFO 2025-03-13 22:30:50,517 basehttp "GET /static/vendor/bootswatch/darkly/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2025-03-13 22:30:50,549 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:30:50,582 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2025-03-13 22:30:50,583 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2025-03-13 22:31:18,977 basehttp "GET /admin/accounts/user/1/history/ HTTP/1.1" 200 39451
+WARNING 2025-03-13 22:31:19,013 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:31:29,777 basehttp "GET /admin/accounts/organizerprofile/ HTTP/1.1" 200 42238
+WARNING 2025-03-13 22:31:29,822 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:31:29,888 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:31:31,200 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 49685
+WARNING 2025-03-13 22:31:31,245 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:31:31,314 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:31:32,873 basehttp "GET /admin/events/customformfield/ HTTP/1.1" 200 44269
+WARNING 2025-03-13 22:31:32,925 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:31:32,995 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:31:34,331 basehttp "GET /admin/events/eventcategory/ HTTP/1.1" 200 41555
+WARNING 2025-03-13 22:31:34,374 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:31:34,440 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:31:35,291 basehttp "GET /admin/events/eventimage/ HTTP/1.1" 200 41534
+WARNING 2025-03-13 22:31:35,337 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:31:35,402 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:31:36,541 basehttp "GET /admin/events/eventtag/ HTTP/1.1" 200 41520
+WARNING 2025-03-13 22:31:36,590 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:31:36,670 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:31:37,938 basehttp "GET /admin/events/event/ HTTP/1.1" 200 44093
+WARNING 2025-03-13 22:31:37,982 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:31:38,044 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:31:41,758 basehttp "GET /admin/registrations/discount/ HTTP/1.1" 200 42219
+WARNING 2025-03-13 22:31:41,824 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:31:41,871 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:31:44,020 basehttp "GET /admin/registrations/ticketpurchase/ HTTP/1.1" 200 42236
+WARNING 2025-03-13 22:31:44,067 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:31:44,136 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:31:46,157 basehttp "GET /admin/registrations/tickettype/ HTTP/1.1" 200 42196
+WARNING 2025-03-13 22:31:46,198 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:31:46,264 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:31:49,735 basehttp "GET /admin/registrations/registration/ HTTP/1.1" 200 43212
+WARNING 2025-03-13 22:31:49,787 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:31:49,864 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:31:52,059 basehttp "GET /admin/registrations/registration/add/ HTTP/1.1" 200 67356
+WARNING 2025-03-13 22:31:52,102 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:31:52,171 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:32:18,842 basehttp "GET /admin/feedback/eventfeedback/ HTTP/1.1" 200 43810
+WARNING 2025-03-13 22:32:18,907 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:32:18,965 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:32:22,274 basehttp "GET /admin/registrations/tickettype/ HTTP/1.1" 200 42196
+WARNING 2025-03-13 22:32:22,321 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:32:22,390 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:32:24,250 basehttp "GET /admin/registrations/tickettype/add/ HTTP/1.1" 200 52922
+WARNING 2025-03-13 22:32:24,293 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:32:24,354 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:32:31,334 basehttp "GET /admin/feedback/eventfeedback/ HTTP/1.1" 200 43810
+WARNING 2025-03-13 22:32:31,378 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:32:31,446 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:32:33,318 basehttp "GET /admin/feedback/eventfeedback/add/ HTTP/1.1" 200 50629
+WARNING 2025-03-13 22:32:33,371 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:32:33,435 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:42:38,039 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 22:42:40,135 basehttp "GET /admin/feedback/eventfeedback/add/ HTTP/1.1" 200 55317
+INFO 2025-03-13 22:42:40,275 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-03-13 22:42:40,304 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-03-13 22:42:40,310 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-03-13 22:42:40,316 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-03-13 22:42:40,322 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-03-13 22:42:40,328 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-03-13 22:42:40,331 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-03-13 22:42:40,337 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+WARNING 2025-03-13 22:42:40,346 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:42:40,350 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2025-03-13 22:42:40,353 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2025-03-13 22:42:40,450 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:42:40,461 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-03-13 22:42:43,169 basehttp "GET /admin/ HTTP/1.1" 200 67594
+WARNING 2025-03-13 22:42:43,186 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:42:48,074 basehttp "GET /admin/accounts/organizerprofile/ HTTP/1.1" 200 51424
+WARNING 2025-03-13 22:42:48,137 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:42:48,137 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2025-03-13 22:42:48,141 basehttp "GET /static/jazzmin/js/change_list.js HTTP/1.1" 304 0
+INFO 2025-03-13 22:42:48,213 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:42:53,831 basehttp "GET /admin/events/customformfield/ HTTP/1.1" 200 116227
+WARNING 2025-03-13 22:42:53,868 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:42:53,877 basehttp "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+INFO 2025-03-13 22:42:54,071 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:43:07,220 basehttp "GET /admin/events/event/ HTTP/1.1" 200 76061
+WARNING 2025-03-13 22:43:07,251 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:43:07,334 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:43:14,175 basehttp "GET /admin/events/event/e239f42d-25bd-4ed6-a9fc-30eff79731f2/change/ HTTP/1.1" 200 100885
+WARNING 2025-03-13 22:43:14,232 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:43:14,302 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:43:49,355 basehttp "GET /admin/events/ HTTP/1.1" 200 45625
+WARNING 2025-03-13 22:43:49,402 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:43:55,098 basehttp "GET /admin/events/customformfield/ HTTP/1.1" 200 116227
+WARNING 2025-03-13 22:43:55,154 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:43:55,225 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:43:59,153 basehttp "GET /admin/events/event/ HTTP/1.1" 200 76061
+WARNING 2025-03-13 22:43:59,205 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:43:59,285 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:44:03,874 basehttp "GET /admin/events/event/?o=3 HTTP/1.1" 200 77445
+WARNING 2025-03-13 22:44:03,926 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:44:04,007 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:44:10,784 basehttp "GET /admin/events/event/?o=-3 HTTP/1.1" 200 77480
+WARNING 2025-03-13 22:44:10,835 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:44:11,030 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:44:14,209 basehttp "GET /admin/events/event/d73b6f3e-14c1-4f81-9cd4-cd0f335ad7e0/change/?_changelist_filters=o%3D-3 HTTP/1.1" 200 148549
+WARNING 2025-03-13 22:44:14,252 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:44:14,446 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:48:35,896 basehttp "GET /admin/events/event/d73b6f3e-14c1-4f81-9cd4-cd0f335ad7e0/change/?_changelist_filters=o%3D-3 HTTP/1.1" 200 148549
+WARNING 2025-03-13 22:48:35,947 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:48:35,992 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:48:42,483 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 22:48:46,537 basehttp "GET /admin/events/event/d73b6f3e-14c1-4f81-9cd4-cd0f335ad7e0/change/?_changelist_filters=o%3D-3 HTTP/1.1" 200 148549
+WARNING 2025-03-13 22:48:46,569 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:48:46,639 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:48:49,274 basehttp "GET /admin/events/event/d73b6f3e-14c1-4f81-9cd4-cd0f335ad7e0/change/?_changelist_filters=o%3D-3 HTTP/1.1" 200 148549
+WARNING 2025-03-13 22:48:49,318 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:48:49,379 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:48:51,793 basehttp "GET /admin/ HTTP/1.1" 200 67594
+WARNING 2025-03-13 22:48:51,881 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+WARNING 2025-03-13 22:48:56,800 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+WARNING 2025-03-13 22:48:57,561 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+WARNING 2025-03-13 22:48:58,068 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+WARNING 2025-03-13 22:48:58,350 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+WARNING 2025-03-13 22:48:58,608 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+WARNING 2025-03-13 22:49:19,227 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+WARNING 2025-03-13 22:49:19,876 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+WARNING 2025-03-13 22:49:20,127 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+WARNING 2025-03-13 22:49:20,341 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+WARNING 2025-03-13 22:49:20,564 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+WARNING 2025-03-13 22:49:20,828 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:54:40,534 autoreload C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\config\settings.py changed, reloading.
+INFO 2025-03-13 22:54:41,289 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 22:54:43,745 basehttp "GET /admin/events/event/d73b6f3e-14c1-4f81-9cd4-cd0f335ad7e0/change/?_changelist_filters=o%3D-3 HTTP/1.1" 200 148549
+WARNING 2025-03-13 22:54:43,766 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:54:43,823 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 22:54:44,931 basehttp "GET /admin/events/event/d73b6f3e-14c1-4f81-9cd4-cd0f335ad7e0/change/?_changelist_filters=o%3D-3 HTTP/1.1" 200 148549
+WARNING 2025-03-13 22:54:44,952 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:54:45,015 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+WARNING 2025-03-13 22:54:48,286 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+WARNING 2025-03-13 22:54:49,258 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+WARNING 2025-03-13 22:54:49,833 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+WARNING 2025-03-13 22:54:50,036 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+WARNING 2025-03-13 22:54:50,265 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+WARNING 2025-03-13 22:54:50,465 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+WARNING 2025-03-13 22:54:50,669 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+WARNING 2025-03-13 22:54:50,889 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+WARNING 2025-03-13 22:54:51,085 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+WARNING 2025-03-13 22:54:51,319 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+WARNING 2025-03-13 22:54:51,514 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+WARNING 2025-03-13 22:54:51,736 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+WARNING 2025-03-13 22:54:51,979 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+WARNING 2025-03-13 22:54:52,227 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+WARNING 2025-03-13 22:55:09,478 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:57:09,733 autoreload Watching for file changes with StatReloader
+WARNING 2025-03-13 22:57:21,279 basehttp "GET /static/logo-icon.png HTTP/1.1" 404 1853
+WARNING 2025-03-13 22:57:25,564 basehttp "GET /static/logo-icon.png HTTP/1.1" 404 1853
+WARNING 2025-03-13 22:57:26,242 basehttp "GET /static/logo-icon.png HTTP/1.1" 404 1853
+INFO 2025-03-13 22:57:29,288 basehttp "GET /admin/events/event/d73b6f3e-14c1-4f81-9cd4-cd0f335ad7e0/change/?_changelist_filters=o%3D-3 HTTP/1.1" 200 148549
+WARNING 2025-03-13 22:57:29,330 basehttp "GET /static/assets/logo-icon.png HTTP/1.1" 404 1874
+INFO 2025-03-13 22:57:29,386 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 23:01:32,941 autoreload C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\config\settings.py changed, reloading.
+INFO 2025-03-13 23:01:33,742 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 23:03:59,919 autoreload C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\config\urls.py changed, reloading.
+INFO 2025-03-13 23:04:00,722 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 23:04:03,488 basehttp "GET /admin/events/event/d73b6f3e-14c1-4f81-9cd4-cd0f335ad7e0/change/?_changelist_filters=o%3D-3 HTTP/1.1" 200 148528
+INFO 2025-03-13 23:04:03,511 basehttp "GET /static/vendor/bootswatch/sandstone/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2025-03-13 23:04:03,518 basehttp "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+INFO 2025-03-13 23:04:03,518 basehttp "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+WARNING 2025-03-13 23:04:03,524 basehttp "GET /static/logo-icon.png HTTP/1.1" 404 1966
+INFO 2025-03-13 23:04:03,531 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2025-03-13 23:04:03,535 basehttp "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2025-03-13 23:04:03,587 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 23:04:03,649 basehttp "GET /static/jazzmin/img/selector-icons.svg HTTP/1.1" 304 0
+WARNING 2025-03-13 23:04:03,703 basehttp "GET /static/logo-icon.png HTTP/1.1" 404 1966
+INFO 2025-03-13 23:04:12,822 basehttp "GET /admin/ HTTP/1.1" 200 67573
+WARNING 2025-03-13 23:04:12,896 basehttp "GET /static/logo-icon.png HTTP/1.1" 404 1966
+WARNING 2025-03-13 23:04:16,302 basehttp "GET /static/logo-icon.png HTTP/1.1" 404 1966
+INFO 2025-03-13 23:04:28,038 autoreload Watching for file changes with StatReloader
+WARNING 2025-03-13 23:04:42,606 basehttp "GET /static/logo-icon.png HTTP/1.1" 404 1966
+WARNING 2025-03-13 23:04:43,396 basehttp "GET /static/logo-icon.png HTTP/1.1" 404 1966
+INFO 2025-03-13 23:05:20,952 autoreload C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\config\urls.py changed, reloading.
+INFO 2025-03-13 23:05:21,723 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 23:07:35,076 autoreload Watching for file changes with StatReloader
+WARNING 2025-03-13 23:07:40,423 basehttp "GET /static/logo-icon.png HTTP/1.1" 404 1853
+WARNING 2025-03-13 23:07:42,602 basehttp "GET /static/logo-icon.png HTTP/1.1" 404 1853
+WARNING 2025-03-13 23:07:42,956 basehttp "GET /static/logo-icon.png HTTP/1.1" 404 1853
+INFO 2025-03-13 23:07:54,989 autoreload Watching for file changes with StatReloader
+WARNING 2025-03-13 23:07:56,773 basehttp "GET /static/logo-icon.png HTTP/1.1" 404 1853
+WARNING 2025-03-13 23:07:57,623 basehttp "GET /static/logo-icon.png HTTP/1.1" 404 1853
+WARNING 2025-03-13 23:07:58,275 basehttp "GET /static/logo-icon.png HTTP/1.1" 404 1853
+INFO 2025-03-13 23:10:23,210 autoreload C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\config\settings.py changed, reloading.
+INFO 2025-03-13 23:10:24,033 autoreload Watching for file changes with StatReloader
+WARNING 2025-03-13 23:10:29,231 basehttp "GET /static/logo-icon.png HTTP/1.1" 404 1853
+WARNING 2025-03-13 23:10:30,182 basehttp "GET /static/logo-icon.png HTTP/1.1" 404 1853
+WARNING 2025-03-13 23:10:30,731 basehttp "GET /static/logo-icon.png HTTP/1.1" 404 1853
+WARNING 2025-03-13 23:10:30,965 basehttp "GET /static/logo-icon.png HTTP/1.1" 404 1853
+WARNING 2025-03-13 23:10:31,168 basehttp "GET /static/logo-icon.png HTTP/1.1" 404 1853
+WARNING 2025-03-13 23:10:31,370 basehttp "GET /static/logo-icon.png HTTP/1.1" 404 1853
+INFO 2025-03-13 23:15:07,981 autoreload Watching for file changes with StatReloader
+WARNING 2025-03-13 23:15:13,221 basehttp "GET /static/logo-icon.png HTTP/1.1" 404 1853
+WARNING 2025-03-13 23:15:13,898 basehttp "GET /static/logo-icon.png HTTP/1.1" 404 1853
+WARNING 2025-03-13 23:15:14,169 basehttp "GET /static/logo-icon.png HTTP/1.1" 404 1853
+WARNING 2025-03-13 23:15:14,369 basehttp "GET /static/logo-icon.png HTTP/1.1" 404 1853
+WARNING 2025-03-13 23:15:14,579 basehttp "GET /static/logo-icon.png HTTP/1.1" 404 1853
+WARNING 2025-03-13 23:15:14,794 basehttp "GET /static/logo-icon.png HTTP/1.1" 404 1853
+WARNING 2025-03-13 23:15:14,998 basehttp "GET /static/logo-icon.png HTTP/1.1" 404 1853
+WARNING 2025-03-13 23:15:15,217 basehttp "GET /static/logo-icon.png HTTP/1.1" 404 1853
+WARNING 2025-03-13 23:15:15,426 basehttp "GET /static/logo-icon.png HTTP/1.1" 404 1853
+INFO 2025-03-13 23:16:05,354 autoreload C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\config\urls.py changed, reloading.
+INFO 2025-03-13 23:16:06,089 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 23:16:21,186 autoreload C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\config\settings.py changed, reloading.
+INFO 2025-03-13 23:16:21,971 autoreload Watching for file changes with StatReloader
+WARNING 2025-03-13 23:16:25,328 basehttp "GET /static/logo-icon.png HTTP/1.1" 404 1853
+WARNING 2025-03-13 23:16:25,992 basehttp "GET /static/logo-icon.png HTTP/1.1" 404 1853
+INFO 2025-03-13 23:16:27,850 basehttp "GET /admin/events/event/d73b6f3e-14c1-4f81-9cd4-cd0f335ad7e0/change/?_changelist_filters=o%3D-3 HTTP/1.1" 200 148528
+INFO 2025-03-13 23:16:27,878 basehttp "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 304 0
+INFO 2025-03-13 23:16:27,879 basehttp "GET /static/admin/js/inlines.js HTTP/1.1" 304 0
+INFO 2025-03-13 23:16:27,880 basehttp "GET /static/admin/js/SelectBox.js HTTP/1.1" 304 0
+WARNING 2025-03-13 23:16:27,887 basehttp "GET /static/logo-icon.png HTTP/1.1" 404 1853
+INFO 2025-03-13 23:16:27,924 basehttp "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+INFO 2025-03-13 23:16:27,930 basehttp "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 304 0
+INFO 2025-03-13 23:16:27,952 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 23:16:40,590 autoreload C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\config\settings.py changed, reloading.
+INFO 2025-03-13 23:16:41,386 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 23:17:07,138 autoreload C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\config\settings.py changed, reloading.
+INFO 2025-03-13 23:17:07,896 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 23:17:10,740 basehttp "GET /admin/events/event/d73b6f3e-14c1-4f81-9cd4-cd0f335ad7e0/change/?_changelist_filters=o%3D-3 HTTP/1.1" 200 148528
+WARNING 2025-03-13 23:17:10,766 basehttp "GET /static/logo-icon.png HTTP/1.1" 404 1853
+INFO 2025-03-13 23:17:10,831 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 23:28:12,596 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 23:28:21,472 basehttp "GET /admin/events/event/d73b6f3e-14c1-4f81-9cd4-cd0f335ad7e0/change/?_changelist_filters=o%3D-3 HTTP/1.1" 200 148528
+INFO 2025-03-13 23:28:21,520 basehttp "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+INFO 2025-03-13 23:28:21,520 basehttp "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2025-03-13 23:28:21,521 basehttp "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2025-03-13 23:28:21,523 basehttp "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 304 0
+INFO 2025-03-13 23:28:21,583 basehttp "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2025-03-13 23:28:21,591 basehttp "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+INFO 2025-03-13 23:28:21,600 basehttp "GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+INFO 2025-03-13 23:28:21,603 basehttp "GET /static/jazzmin/js/ui-builder.js HTTP/1.1" 304 0
+INFO 2025-03-13 23:28:21,610 basehttp "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 304 0
+INFO 2025-03-13 23:28:21,619 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 23:28:21,622 basehttp "GET /static/jazzmin/js/change_form.js HTTP/1.1" 304 0
+INFO 2025-03-13 23:28:21,642 basehttp "GET /static/vendor/bootswatch/darkly/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2025-03-13 23:28:21,699 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2025-03-13 23:28:21,701 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2025-03-13 23:28:21,724 basehttp "GET /static/logo-icon.png HTTP/1.1" 200 17544
+INFO 2025-03-13 23:30:23,905 autoreload C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\config\settings.py changed, reloading.
+INFO 2025-03-13 23:30:24,763 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 23:30:25,628 basehttp "GET /admin/events/event/d73b6f3e-14c1-4f81-9cd4-cd0f335ad7e0/change/?_changelist_filters=o%3D-3 HTTP/1.1" 200 148543
+INFO 2025-03-13 23:30:25,710 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 23:30:30,675 autoreload C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\config\settings.py changed, reloading.
+INFO 2025-03-13 23:30:31,484 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 23:30:33,173 autoreload C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\config\settings.py changed, reloading.
+INFO 2025-03-13 23:30:33,766 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 23:30:35,438 basehttp "GET /admin/events/event/d73b6f3e-14c1-4f81-9cd4-cd0f335ad7e0/change/?_changelist_filters=o%3D-3 HTTP/1.1" 200 148543
+INFO 2025-03-13 23:30:35,522 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 23:30:48,785 autoreload C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\config\settings.py changed, reloading.
+INFO 2025-03-13 23:30:49,717 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 23:30:50,470 basehttp "GET /admin/events/event/d73b6f3e-14c1-4f81-9cd4-cd0f335ad7e0/change/?_changelist_filters=o%3D-3 HTTP/1.1" 200 148522
+INFO 2025-03-13 23:30:50,550 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 23:30:59,660 autoreload C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\config\settings.py changed, reloading.
+INFO 2025-03-13 23:31:00,466 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 23:31:01,407 basehttp "GET /admin/events/event/d73b6f3e-14c1-4f81-9cd4-cd0f335ad7e0/change/?_changelist_filters=o%3D-3 HTTP/1.1" 200 148528
+INFO 2025-03-13 23:31:01,493 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 23:32:36,435 autoreload C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\config\settings.py changed, reloading.
+INFO 2025-03-13 23:32:37,241 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 23:32:39,096 basehttp "GET /admin/events/event/d73b6f3e-14c1-4f81-9cd4-cd0f335ad7e0/change/?_changelist_filters=o%3D-3 HTTP/1.1" 200 148523
+INFO 2025-03-13 23:32:39,164 basehttp "GET /static/logo.png HTTP/1.1" 200 19562
+INFO 2025-03-13 23:32:39,185 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 23:33:19,763 autoreload C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\config\settings.py changed, reloading.
+INFO 2025-03-13 23:33:20,574 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 23:33:21,454 basehttp "GET /admin/events/event/d73b6f3e-14c1-4f81-9cd4-cd0f335ad7e0/change/?_changelist_filters=o%3D-3 HTTP/1.1" 200 148523
+INFO 2025-03-13 23:33:21,476 basehttp "GET /static/logo.png HTTP/1.1" 304 0
+INFO 2025-03-13 23:33:21,539 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 23:33:23,371 basehttp "GET /admin/events/event/d73b6f3e-14c1-4f81-9cd4-cd0f335ad7e0/change/?_changelist_filters=o%3D-3 HTTP/1.1" 200 148523
+INFO 2025-03-13 23:33:23,461 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 23:36:09,754 basehttp "POST /admin/logout/ HTTP/1.1" 200 2337
+INFO 2025-03-13 23:36:09,778 basehttp "GET /static/logo.png HTTP/1.1" 304 0
+INFO 2025-03-13 23:36:25,455 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-03-13 23:36:25,474 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3294
+INFO 2025-03-13 23:36:31,085 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-03-13 23:36:31,224 basehttp "GET /admin/ HTTP/1.1" 200 67568
+INFO 2025-03-13 23:36:47,553 autoreload C:\Users\tefba\Desktop\OverBrand\EventEz\backend\EventEzBackend\config\settings.py changed, reloading.
+INFO 2025-03-13 23:36:48,484 autoreload Watching for file changes with StatReloader
+INFO 2025-03-13 23:36:49,275 basehttp "GET /admin/ HTTP/1.1" 200 67573
+INFO 2025-03-13 23:36:56,948 basehttp "GET /admin/ HTTP/1.1" 200 67573
+INFO 2025-03-13 23:36:58,051 basehttp "GET /admin/ HTTP/1.1" 200 67573
+INFO 2025-03-13 23:36:59,875 basehttp "GET /admin/accounts/organizerprofile/ HTTP/1.1" 200 51403
+INFO 2025-03-13 23:36:59,920 basehttp "GET /static/jazzmin/js/change_list.js HTTP/1.1" 304 0
+INFO 2025-03-13 23:36:59,988 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+WARNING 2025-03-13 23:37:02,243 log Not Found: /events/
+WARNING 2025-03-13 23:37:02,246 basehttp "GET /events/ HTTP/1.1" 404 3554
+INFO 2025-03-13 23:37:04,499 basehttp "GET /admin/accounts/organizerprofile/ HTTP/1.1" 200 51403
+INFO 2025-03-13 23:37:06,633 basehttp "GET /admin/events/event/ HTTP/1.1" 200 76040
+INFO 2025-03-13 23:37:06,749 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 23:37:10,338 basehttp "GET /admin/events/event/add/ HTTP/1.1" 200 99488
+INFO 2025-03-13 23:37:10,445 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 23:37:13,446 basehttp "GET /admin/accounts/organizerprofile/ HTTP/1.1" 200 51403
+INFO 2025-03-13 23:37:13,564 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 23:37:18,782 basehttp "GET /admin/ HTTP/1.1" 200 67573
+INFO 2025-03-13 23:37:44,947 basehttp "GET /admin/ HTTP/1.1" 200 67573
+INFO 2025-03-13 23:37:44,973 basehttp "GET /static/logo-icon.png HTTP/1.1" 304 0
+INFO 2025-03-13 23:37:49,256 basehttp "GET /admin/accounts/user/1/change/ HTTP/1.1" 200 76747
+INFO 2025-03-13 23:37:49,364 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
+INFO 2025-03-13 23:37:53,512 basehttp "GET /admin/notifications/notification/ HTTP/1.1" 200 105231
+INFO 2025-03-13 23:37:53,623 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 8985
