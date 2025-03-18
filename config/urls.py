@@ -68,6 +68,7 @@ urlpatterns = [
     path('api/token/', CustomTokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('api/register/', UserRegistrationView.as_view(), name='user-register'),
     path('api/register/organizer/', OrganizerRegistrationView.as_view(), name='organizer-register'),
+    path('api/analytics/', include('apps.analytics.urls')),
      # Schéma OpenAPI
     path('api/schema/', SpectacularAPIView.as_view(), name='schema'),
     # Interface Swagger UI

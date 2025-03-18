@@ -56,7 +56,44 @@ INSTALLED_APPS = [
     'apps.feedback',
     'apps.notifications',
     'apps.core',
+    'apps.analytics',
 ]
+
+# Configuration des tâches périodiques Celery
+from celery.schedules import crontab
+
+CELERY_BEAT_SCHEDULE = {
+    # Générer les rapports programmés chaque heure
+    'generate-scheduled-reports': {
+        'task': 'apps.analytics.tasks.generate_scheduled_reports',
+        'schedule': crontab(minute=0),  # Chaque heure à la minute 0
+    },
+    # Nettoyer les anciens rapports une fois par semaine
+    'clean-old-reports': {
+        'task': 'apps.analytics.tasks.clean_old_reports',
+        'schedule': crontab(hour=0, minute=0, day_of_week=1),  # Lundi à minuit
+    },
+}
+
+# Configuration des bibliothèques d'analyse
+ANALYTICS = {
+    'REPORT_EXPIRATION_DAYS': 30,  # Durée de conservation des rapports non programmés en jours
+    'DEFAULT_CHART_COLORS': [
+        '#6d28d9',  # Violet principal
+        '#ec4899',  # Rose principal
+        '#8b5cf6',  # Violet secondaire
+        '#f472b6',  # Rose secondaire
+        '#d946ef',  # Magenta
+        '#38bdf8',  # Bleu clair
+        '#10b981',  # Vert
+        '#f59e0b',  # Orange
+        '#ef4444',  # Rouge
+    ],
+    'MAX_DATA_POINTS': 100,  # Nombre maximal de points de données à afficher dans les graphiques
+    'DEFAULT_DASHBOARD_THEME': 'light',
+    'ALLOWED_EXPORT_FORMATS': ['pdf', 'csv', 'json'],
+}
+
 X_FRAME_OPTIONS = 'SAMEORIGIN'  # Requis pour l'éditeur de couleurs
 # Configuration de Jazzmin
 JAZZMIN_SETTINGS = {

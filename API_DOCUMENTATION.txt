@@ -1,0 +1,84 @@
+# Documentation API Analytics
+
+## Résumé pour le tableau de bord
+GET /api/analytics/analytics/dashboard_summary/
+Paramètres de requête :
+- start_date (optionnel): Date de début au format YYYY-MM-DD
+- end_date (optionnel): Date de fin au format YYYY-MM-DD
+
+## Analyses d'événements
+GET /api/analytics/analytics/events/
+Paramètres de requête :
+- event_id (optionnel): ID de l'événement pour une analyse détaillée
+- start_date (optionnel): Date de début au format YYYY-MM-DD
+- end_date (optionnel): Date de fin au format YYYY-MM-DD
+
+## Analyse des inscriptions pour un événement
+GET /api/analytics/analytics/event_registrations/
+Paramètres de requête :
+- event_id (obligatoire): ID de l'événement
+- interval (optionnel): 'hour', 'day', 'week', 'month' (défaut: 'day')
+
+## Prédiction des inscriptions
+GET /api/analytics/analytics/predict_attendance/
+Paramètres de requête :
+- event_id (obligatoire): ID de l'événement
+
+## Analyses de revenus
+GET /api/analytics/analytics/revenue/
+Paramètres de requête :
+- analysis_type (optionnel): 'summary', 'trends', 'methods' (défaut: 'summary')
+- start_date (optionnel): Date de début au format YYYY-MM-DD
+- end_date (optionnel): Date de fin au format YYYY-MM-DD
+- event_id (optionnel): ID de l'événement
+- interval (pour 'trends'): 'day', 'week', 'month' (défaut: 'day')
+- periods (pour 'trends'): Nombre de périodes (défaut: 30)
+
+## Analyses d'utilisateurs
+GET /api/analytics/analytics/users/
+Paramètres de requête :
+- analysis_type (optionnel): 'growth', 'segmentation', 'retention' (défaut: 'growth')
+- interval (pour 'growth'): 'day', 'week', 'month', 'year' (défaut: 'month')
+- periods (pour 'growth'): Nombre de périodes (défaut: 12)
+- cohort_month (pour 'retention'): Mois de cohorte au format YYYY-MM
+- max_months (pour 'retention'): Nombre max de mois (défaut: 12)
+
+## Analyses d'inscriptions
+GET /api/analytics/analytics/registrations/
+Paramètres de requête :
+- analysis_type (optionnel): 'summary', 'tickets', 'forms' (défaut: 'summary')
+- start_date (optionnel): Date de début au format YYYY-MM-DD
+- end_date (optionnel): Date de fin au format YYYY-MM-DD
+- event_id (optionnel): ID de l'événement
+
+## Rapports analytiques
+
+### Liste des rapports
+GET /api/analytics/reports/
+
+### Détails d'un rapport
+GET /api/analytics/reports/{id}/
+
+### Générer un rapport
+POST /api/analytics/reports/generate/
+Corps de la requête (JSON):
+{
+  "report_type": "event_performance", // Obligatoire
+  "title": "Performance des événements", // Obligatoire
+  "description": "Analyse détaillée des performances", // Optionnel
+  "filters": { // Optionnel
+    "start_date": "2025-01-01",
+    "end_date": "2025-03-31",
+    "analysis_type": "summary"
+  },
+  "event_id": "uuid-de-l-evenement", // Optionnel
+  "is_scheduled": false, // Optionnel
+  "schedule_frequency": "once", // Optionnel, 'once', 'daily', 'weekly', 'monthly'
+  "email_on_generation": false, // Optionnel
+  "export_format": "pdf" // Optionnel, 'pdf', 'csv', 'json'
+}
+
+### Exporter un rapport
+GET /api/analytics/reports/{id}/export/
+Paramètres de requête :
+- format (optionnel): 'pdf', 'csv', 'json' (défaut: format configuré dans le rapport)

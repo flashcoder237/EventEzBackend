@@ -52,3 +52,37 @@ class IsAdminOrReadOnly(permissions.BasePermission):
         
         # Autoriser les modifications uniquement pour les administrateurs
         return request.user.is_authenticated and request.user.is_staff
+    
+class IsAdminOrOrganizer(permissions.BasePermission):
+    """
+    Autoriser uniquement les administrateurs ou les organisateurs.
+    """
+    
+    def has_permission(self, request, view):
+        if not request.user.is_authenticated:
+            return False
+            
+        # Autoriser les administrateurs
+        if request.user.is_staff:
+            return True
+            
+        # Autoriser les organisateurs
+        return request.user.role == 'organizer'
+    
+    def has_object_permission(self, request, view, obj):
+        if not request.user.is_authenticated:
+            return False
+            
+        # Autoriser les administrateurs
+        if request.user.is_staff:
+            return True
+            
+        # Autoriser les organisateurs pour leurs propres événements
+        if hasattr(obj, 'organizer'):
+            return obj.organizer == request.user
+            
+        # Pour les objets liés à un événement
+        if hasattr(obj, 'event') and hasattr(obj.event, 'organizer'):
+            return obj.event.organizer == request.user
+            
+        return False

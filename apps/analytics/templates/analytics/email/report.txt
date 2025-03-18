@@ -1,0 +1,23 @@
+<!-- templates/analytics/email/report.txt -->
+Rapport Eventez
+
+Bonjour {% if user.first_name %}{{ user.first_name }}{% else %}{{ user.username }}{% endif %},
+
+Votre rapport "{{ report.title }}" a été généré avec succès le {{ generated_at }}.
+
+Type de rapport : {{ report.get_report_type_display }}
+{% if report.description %}
+Description : {{ report.description }}
+{% endif %}
+
+Vous pouvez consulter le rapport complet en vous connectant à votre compte Eventez à l'adresse suivante :
+https://eventez.cm/analytics/reports/{{ report.id }}
+
+Si vous avez des questions ou besoin d'assistance, n'hésitez pas à contacter notre équipe de support.
+
+Cordialement,
+L'équipe Eventez
+
+----
+Ce message a été envoyé depuis une adresse non surveillée. Merci de ne pas y répondre.
+© 2025 Eventez. Tous droits réservés.
