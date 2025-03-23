@@ -21,8 +21,9 @@ from django.conf.urls.static import static
 from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
 
 
+
 # config/urls.py (suite)
-from apps.accounts.views import UserViewSet, CustomTokenObtainPairView, UserRegistrationView, OrganizerRegistrationView
+from apps.accounts.views import UserViewSet, CustomTokenObtainPairView, CustomTokenRefreshView, UserRegistrationView, OrganizerRegistrationView
 from apps.events.views import EventViewSet, EventCategoryViewSet, EventTagViewSet
 from apps.registrations.views import RegistrationViewSet, TicketTypeViewSet, TicketPurchaseViewSet, DiscountViewSet
 from apps.payments.views import PaymentViewSet, RefundViewSet, InvoiceViewSet
@@ -68,6 +69,7 @@ urlpatterns = [
     path('api/token/', CustomTokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('api/register/', UserRegistrationView.as_view(), name='user-register'),
     path('api/register/organizer/', OrganizerRegistrationView.as_view(), name='organizer-register'),
+    path('api/token/refresh/', CustomTokenRefreshView.as_view(), name='token_refresh'),
     path('api/analytics/', include('apps.analytics.urls')),
      # Schéma OpenAPI
     path('api/schema/', SpectacularAPIView.as_view(), name='schema'),

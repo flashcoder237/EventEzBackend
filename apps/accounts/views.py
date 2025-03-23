@@ -1,7 +1,7 @@
 from rest_framework import viewsets, status, generics, permissions
 from rest_framework.response import Response
 from rest_framework.decorators import action
-from rest_framework_simplejwt.views import TokenObtainPairView
+from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 from django.contrib.auth import get_user_model
 from .models import OrganizerProfile
 from .serializers import (
@@ -16,6 +16,12 @@ User = get_user_model()
 
 class CustomTokenObtainPairView(TokenObtainPairView):
     serializer_class = CustomTokenObtainPairSerializer
+
+class CustomTokenRefreshView(TokenRefreshView):
+    """
+    Custom view for refreshing tokens.
+    """
+    pass
 
 class UserRegistrationView(generics.CreateAPIView):
     queryset = User.objects.all()
