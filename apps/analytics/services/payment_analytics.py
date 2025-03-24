@@ -6,6 +6,7 @@ import pandas as pd
 import numpy as np
 from apps.payments.models import Payment
 from apps.events.models import Event
+from django.db.models import FloatField
 
 class PaymentAnalyticsService:
     """Services d'analyse des paiements et revenus"""
@@ -58,7 +59,7 @@ class PaymentAnalyticsService:
             count=Count('id'),
             percentage=ExpressionWrapper(
                 Sum('amount') * 100.0 / total_revenue,
-                output_field=F('amount')
+                output_field=FloatField()
             )
         ).order_by('-total')
         

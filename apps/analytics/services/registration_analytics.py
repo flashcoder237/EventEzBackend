@@ -16,16 +16,100 @@ class RegistrationAnalyticsService:
         registrations = Registration.objects.all()
         
         if start_date:
-            registrations = registrations.filter(created_at__gte=start_date)
+            registrations = registrations.filter(created_at__date__gte=start_date)
         
         if end_date:
-            registrations = registrations.filter(created_at__lte=end_date)
+            registrations = registrations.filter(created_at__date__lte=end_date)
         
         if event_id:
             registrations = registrations.filter(event_id=event_id)
         
         if organizer_id:
             registrations = registrations.filter(event__organizer_id=organizer_id)
+        
+        # Calculs des métriques principales
+        total_registrations = registrations.count()
+        confirmed_registrations = registrations.filter(status='confirmed').count()
+        pending_registrations = registrations.filter(status='pending').count()
+        cancelled_registrations = registrations.filter(status='cancelled').count()
+        
+        # Conversion rate
+        conversion_rate = (confirmed_registrations / total_registrations * 100) if total_registrations > 0 else 0
+        
+        # Répartition par type d'inscription
+        registration_types = registrations.values('registration_type').annotate(
+            count=Count('id'),
+            percentage=Count('id') * 100.0 / total_registrations if total_registrations > 0 else 0
+        ).order_by('-count')
+        
+        # Tendance des inscriptions par semaine
+        from django.db.models.functions import TruncWeek
+        
+        registration_trends = registrations.annotate(
+            period=TruncWeek('created_at')
+        ).values('period', 'status').annotate(
+            count=Count('id')
+        ).order_by('period', 'status')
+        
+        # Formater les tendances pour l'affichage
+        trends_data = {}
+        for trend in registration_trends:
+            period = trend['period']
+            status = trend['status']
+            count = trend['count']
+            
+            if period not in trends_data:
+                trends_data[period] = {
+                    'period': period,
+                    'total': 0,
+                    'confirmed': 0,
+                    'pending': 0,
+                    'cancelled': 0
+                }
+            
+            trends_data[period][status] = count
+            trends_data[period]['total'] += count
+        
+        # Convertir en liste et trier
+        trends = list(trends_data.values())
+        trends.sort(key=lambda x: x['period'])
+        
+        return {
+            'summary': {
+                'total_registrations': total_registrations,
+                'confirmed_registrations': confirmed_registrations,
+                'pending_registrations': pending_registrations,
+                'cancelled_registrations': cancelled_registrations,
+                'conversion_rate': round(conversion_rate, 2)
+            },
+            'registration_types': list(registration_types),
+            'trends': {
+                'interval': 'week',
+                'data': trends
+            }
+        }
+    
+    @staticmethod
+    def get_revenue_summary(start_date=None, end_date=None, event_id=None, organizer_id=None):
+        from django.db.models.functions import TruncWeek, TruncMonth
+
+        # Filtrer les paiements
+        payments = Payment.objects.filter(status='completed')
+        
+        if start_date:
+            payments = payments.filter(created_at__date__gte=start_date)
+        
+        if end_date:
+            payments = payments.filter(created_at__date__lte=end_date)
+        
+        if event_id:
+            payments = payments.filter(registration__event_id=event_id)
+        
+        if organizer_id:
+            payments = payments.filter(registration__event__organizer_id=organizer_id)
+        
+        # Utiliser TruncMonth pour éviter l'ambiguïté
+        revenue_by_period = payments.annotate(period=TruncMonth('created_at')).values('period').annotate(total_revenue=Sum('amount'),count=Count('id') ).order_by('period')
         
         # Calculs des métriques principales
         total_registrations = registrations.count()

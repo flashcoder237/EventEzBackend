@@ -118,7 +118,7 @@ class EventAnalyticsService:
         
         # Analyse des inscriptions au fil du temps
         registrations_by_date = registrations.extra(
-            select={'date': "DATE(created_at)"}
+            select={'date': "DATE(registration.created_at)"}
         ).values('date').annotate(count=Count('id')).order_by('date')
         
         # Pour les événements avec billetterie, analyser les ventes par type de billet
