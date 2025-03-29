@@ -17,15 +17,23 @@ from io import BytesIO
 from django.core.files.base import ContentFile
 
 class TicketTypeViewSet(viewsets.ModelViewSet):
-    queryset = TicketType.objects.all()
+    queryset = TicketType.objects.filter(is_visible=True)
     serializer_class = TicketTypeSerializer
-    permission_classes = [permissions.IsAuthenticated]
+    permission_classes = []  # Suppression de l'authentification requise
     
     def get_queryset(self):
-        user = self.request.user
-        if user.is_staff:
-            return TicketType.objects.all()
-        return TicketType.objects.filter(event__organizer=user)
+        # Filtrer par événement si spécifié
+        event_id = self.request.query_params.get('event')
+        if event_id:
+            return TicketType.objects.filter(event_id=event_id, is_visible=True)
+        
+        return TicketType.objects.filter(is_visible=True)
+
+    def get_permissions(self):
+        # Seuls les utilisateurs authentifiés peuvent créer/modifier des types de tickets
+        if self.action in ['create', 'update', 'partial_update', 'destroy']:
+            return [permissions.IsAuthenticated()]
+        return []
 
     def perform_create(self, serializer):
         event_id = self.request.data.get('event')
@@ -39,7 +47,7 @@ class TicketTypeViewSet(viewsets.ModelViewSet):
             )
         
         serializer.save()
-
+        
 class DiscountViewSet(viewsets.ModelViewSet):
     queryset = Discount.objects.all()
     serializer_class = DiscountSerializer
@@ -103,7 +111,7 @@ class RegistrationViewSet(viewsets.ModelViewSet):
         return RegistrationSerializer
     
     def perform_create(self, serializer):
-        serializer.save(user=self.request.user)
+        serializer.save()
     
     @action(detail=True, methods=['post'])
     def generate_qr_codes(self, request, pk=None):

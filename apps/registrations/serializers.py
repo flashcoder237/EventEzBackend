@@ -54,7 +54,8 @@ class RegistrationCreateSerializer(serializers.ModelSerializer):
     
     class Meta:
         model = Registration
-        fields = ['event', 'registration_type', 'form_data', 'tickets']
+        fields = ['id', 'event', 'registration_type', 'form_data', 'tickets', 'reference_code', 'user']
+        read_only_fields = ['reference_code', 'user']  # Ces champs seront définis dans la méthode create
     
     def validate(self, data):
         event = data.get('event')
