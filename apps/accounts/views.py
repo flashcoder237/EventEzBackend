@@ -36,16 +36,56 @@ class OrganizerRegistrationView(generics.CreateAPIView):
 class UserViewSet(viewsets.ModelViewSet):
     queryset = User.objects.all()
     serializer_class = UserSerializer
-    permission_classes = [permissions.IsAuthenticated]
+    
+    def get_permissions(self):
+        """
+        Actions spécifiques qui nécessitent ou non une authentification
+        """
+        if self.action in ['list', 'retrieve', 'organizers']:
+            # Ces actions sont accessibles sans authentification
+            return [permissions.AllowAny()]
+        # Toutes les autres actions nécessitent une authentification
+        return [permissions.IsAuthenticated()]
     
     def get_queryset(self):
+        """
+        Permet de filtrer les utilisateurs selon le rôle d'admin ou non
+        Pour les actions de lecture (list, retrieve), tous les utilisateurs sont accessibles
+        """
+        if self.action in ['list', 'retrieve']:
+            # Pour les actions de lecture générale
+            if 'role' in self.request.query_params:
+                # Si un rôle spécifique est demandé
+                return User.objects.filter(role=self.request.query_params.get('role'))
+            return User.objects.all()
+        
+        # Pour les actions d'administration
         if self.request.user.is_staff:
             return User.objects.all()
+        
+        # Pour les autres actions, l'utilisateur ne voit que son propre profil
         return User.objects.filter(id=self.request.user.id)
     
     @action(detail=False, methods=['get'])
     def me(self, request):
+        """
+        Retourne le profil de l'utilisateur connecté
+        """
         serializer = self.get_serializer(request.user)
+        return Response(serializer.data)
+    
+    @action(detail=False, methods=['get'], permission_classes=[permissions.AllowAny])
+    def organizers(self, request):
+        """
+        Retourne tous les organisateurs (accessible sans authentification)
+        """
+        organizers = User.objects.filter(role='organizer')
+        page = self.paginate_queryset(organizers)
+        if page is not None:
+            serializer = self.get_serializer(page, many=True)
+            return self.get_paginated_response(serializer.data)
+        
+        serializer = self.get_serializer(organizers, many=True)
         return Response(serializer.data)
     
     @action(detail=False, methods=['put'])
