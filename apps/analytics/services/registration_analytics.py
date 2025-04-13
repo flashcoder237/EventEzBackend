@@ -1,10 +1,12 @@
-from django.db.models import Count, Sum, Avg, F, Q, Case, When, Value, IntegerField
+from django.db.models import Count, Sum, Avg, F, Q, Case, When, Value, IntegerField, FloatField
 from django.utils import timezone
+from django.db.models.functions import TruncWeek, TruncMonth
 import datetime
 import pandas as pd
 from apps.registrations.models import Registration, TicketType, TicketPurchase
 from apps.events.models import Event
 from apps.accounts.models import User
+from apps.payments.models import Payment
 
 class RegistrationAnalyticsService:
     """Services d'analyse des inscriptions"""
@@ -34,17 +36,28 @@ class RegistrationAnalyticsService:
         cancelled_registrations = registrations.filter(status='cancelled').count()
         
         # Conversion rate
-        conversion_rate = (confirmed_registrations / total_registrations * 100) if total_registrations > 0 else 0
+        conversion_rate = 0
+        if total_registrations > 0:
+            conversion_rate = (confirmed_registrations / total_registrations * 100)
         
         # Répartition par type d'inscription
-        registration_types = registrations.values('registration_type').annotate(
-            count=Count('id'),
-            percentage=Count('id') * 100.0 / total_registrations if total_registrations > 0 else 0
-        ).order_by('-count')
+        registration_types = []
+        if total_registrations > 0:
+            registration_types = registrations.values('registration_type').annotate(
+                count=Count('id'),
+                percentage=Case(
+                    When(condition=Q(), then=Count('id') * 100.0 / Value(total_registrations)),
+                    default=Value(0),
+                    output_field=FloatField()
+                )
+            ).order_by('-count')
+        else:
+            registration_types = registrations.values('registration_type').annotate(
+                count=Count('id'),
+                percentage=Value(0, output_field=FloatField())
+            ).order_by('-count')
         
         # Tendance des inscriptions par semaine
-        from django.db.models.functions import TruncWeek
-        
         registration_trends = registrations.annotate(
             period=TruncWeek('created_at')
         ).values('period', 'status').annotate(
@@ -91,16 +104,14 @@ class RegistrationAnalyticsService:
     
     @staticmethod
     def get_revenue_summary(start_date=None, end_date=None, event_id=None, organizer_id=None):
-        from django.db.models.functions import TruncWeek, TruncMonth
-
         # Filtrer les paiements
         payments = Payment.objects.filter(status='completed')
         
         if start_date:
-            payments = payments.filter(created_at__date__gte=start_date)
+            payments = payments.filter(payment_date__date__gte=start_date)
         
         if end_date:
-            payments = payments.filter(created_at__date__lte=end_date)
+            payments = payments.filter(payment_date__date__lte=end_date)
         
         if event_id:
             payments = payments.filter(registration__event_id=event_id)
@@ -109,7 +120,22 @@ class RegistrationAnalyticsService:
             payments = payments.filter(registration__event__organizer_id=organizer_id)
         
         # Utiliser TruncMonth pour éviter l'ambiguïté
-        revenue_by_period = payments.annotate(period=TruncMonth('created_at')).values('period').annotate(total_revenue=Sum('amount'),count=Count('id') ).order_by('period')
+        revenue_by_period = payments.annotate(period=TruncMonth('payment_date')).values('period').annotate(total_revenue=Sum('amount'),count=Count('id') ).order_by('period')
+        
+        # Filtrer les inscriptions avec les mêmes critères
+        registrations = Registration.objects.all()
+        
+        if start_date:
+            registrations = registrations.filter(created_at__date__gte=start_date)
+        
+        if end_date:
+            registrations = registrations.filter(created_at__date__lte=end_date)
+        
+        if event_id:
+            registrations = registrations.filter(event_id=event_id)
+        
+        if organizer_id:
+            registrations = registrations.filter(event__organizer_id=organizer_id)
         
         # Calculs des métriques principales
         total_registrations = registrations.count()
@@ -118,13 +144,26 @@ class RegistrationAnalyticsService:
         cancelled_registrations = registrations.filter(status='cancelled').count()
         
         # Conversion rate
-        conversion_rate = (confirmed_registrations / total_registrations * 100) if total_registrations > 0 else 0
+        conversion_rate = 0
+        if total_registrations > 0:
+            conversion_rate = (confirmed_registrations / total_registrations * 100)
         
         # Répartition par type d'inscription
-        registration_types = registrations.values('registration_type').annotate(
-            count=Count('id'),
-            percentage=Count('id') * 100.0 / total_registrations if total_registrations > 0 else 0
-        ).order_by('-count')
+        registration_types = []
+        if total_registrations > 0:
+            registration_types = registrations.values('registration_type').annotate(
+                count=Count('id'),
+                percentage=Case(
+                    When(condition=Q(), then=Count('id') * 100.0 / Value(total_registrations)),
+                    default=Value(0),
+                    output_field=FloatField()
+                )
+            ).order_by('-count')
+        else:
+            registration_types = registrations.values('registration_type').annotate(
+                count=Count('id'),
+                percentage=Value(0, output_field=FloatField())
+            ).order_by('-count')
         
         # Tendance des inscriptions au fil du temps
         if start_date and end_date:
@@ -132,22 +171,36 @@ class RegistrationAnalyticsService:
             
             if date_diff > 90:
                 interval = 'month'
-                trunc_sql = "date_trunc('month', created_at)"
+                # Utiliser TruncMonth à la place de date_trunc SQL
+                registration_trends = registrations.annotate(
+                    period=TruncMonth('created_at')
+                ).values('period', 'status').annotate(
+                    count=Count('id')
+                ).order_by('period', 'status')
             elif date_diff > 30:
                 interval = 'week'
-                trunc_sql = "date_trunc('week', created_at)"
+                # Utiliser TruncWeek 
+                registration_trends = registrations.annotate(
+                    period=TruncWeek('created_at')
+                ).values('period', 'status').annotate(
+                    count=Count('id')
+                ).order_by('period', 'status')
             else:
                 interval = 'day'
-                trunc_sql = "date_trunc('day', created_at)"
+                # Utiliser TruncDay
+                from django.db.models.functions import TruncDay
+                registration_trends = registrations.annotate(
+                    period=TruncDay('created_at')
+                ).values('period', 'status').annotate(
+                    count=Count('id')
+                ).order_by('period', 'status')
         else:
             interval = 'week'
-            trunc_sql = "date_trunc('week', created_at)"
-        
-        registration_trends = registrations.extra(
-            select={'period': trunc_sql}
-        ).values('period', 'status').annotate(
-            count=Count('id')
-        ).order_by('period', 'status')
+            registration_trends = registrations.annotate(
+                period=TruncWeek('created_at')
+            ).values('period', 'status').annotate(
+                count=Count('id')
+            ).order_by('period', 'status')
         
         # Formater les tendances pour l'affichage
         trends_data = {}
@@ -169,7 +222,7 @@ class RegistrationAnalyticsService:
             trends_data[period]['total'] += count
         
         # Convertir en liste et trier
-        trends = [data for _, data in trends_data.items()]
+        trends = list(trends_data.values())
         trends.sort(key=lambda x: x['period'])
         
         return {
@@ -224,7 +277,11 @@ class RegistrationAnalyticsService:
         ).annotate(
             quantity_sold=Sum('quantity'),
             revenue=Sum('total_price'),
-            avg_price=Sum('total_price') / Sum('quantity'),
+            avg_price=Case(
+                When(Sum('quantity') > 0, then=Sum('total_price') / Sum('quantity')),
+                default=Value(0),
+                output_field=FloatField()
+            ),
             discount_total=Sum('discount_amount')
         ).order_by('-quantity_sold')
         
@@ -235,7 +292,11 @@ class RegistrationAnalyticsService:
         ).annotate(
             tickets_sold=Sum('quantity'),
             revenue=Sum('total_price'),
-            avg_price=Sum('total_price') / Sum('quantity'),
+            avg_price=Case(
+                When(Sum('quantity') > 0, then=Sum('total_price') / Sum('quantity')),
+                default=Value(0),
+                output_field=FloatField()
+            ),
             customers=Count('registration__user', distinct=True)
         ).order_by('-tickets_sold')
         
@@ -299,9 +360,6 @@ class RegistrationAnalyticsService:
         
         # Analyse des champs de formulaires
         # Cette partie nécessiterait d'explorer les données JSON des formulaires
-        # C'est une opération complexe qui dépend de la structure des formulaires
-        
-        # Exemple simple: comptage des champs remplis
         field_analysis = []
         
         return {
