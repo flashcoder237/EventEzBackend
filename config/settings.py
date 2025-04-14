@@ -204,7 +204,7 @@ ROOT_URLCONF = 'config.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],  # Ajouté pour trouver les templates d'emails
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -329,13 +329,17 @@ CORS_ALLOW_ALL_ORIGINS = True  # En développement seulement
 #     "http://localhost:3000",  # Frontend React/Next.js
 # ]
 
+# URL du frontend pour les liens dans les emails
+FRONTEND_URL = os.environ.get('FRONTEND_URL', 'http://localhost:3000')
+
 # Configuration Email
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'  # Exemple avec Gmail
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'votre-email@gmail.com'
-EMAIL_HOST_PASSWORD = 'votre-mot-de-passe'  # Utilisez des variables d'environnement en production
+EMAIL_HOST_USER = 'cedrictefoye@gmail.com'
+EMAIL_HOST_PASSWORD = 'lzbs tklj xfrm hqyk'  # Utilisez des variables d'environnement en production
+DEFAULT_FROM_EMAIL = os.environ.get('DEFAULT_FROM_EMAIL', 'noreply@eventez.com')
 
 # Logging
 LOGGING = {

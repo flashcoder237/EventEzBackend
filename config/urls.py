@@ -30,6 +30,7 @@ from apps.payments.views import PaymentViewSet, RefundViewSet, InvoiceViewSet
 from apps.feedback.views import EventFeedbackViewSet, EventFlagViewSet, EventValidationViewSet
 from apps.notifications.views import NotificationViewSet, NotificationTemplateViewSet
 from rest_framework import routers
+from apps.accounts import views as accounts_views
 
 # Création du routeur principal
 router = routers.DefaultRouter()
@@ -75,6 +76,9 @@ urlpatterns = [
     path('api/schema/', SpectacularAPIView.as_view(), name='schema'),
     # Interface Swagger UI
     path('api/docs/', SpectacularSwaggerView.as_view(url_name='schema'), name='swagger-ui'),
+    path('api/auth/password-reset/request/', accounts_views.PasswordResetRequestView.as_view(), name='password-reset-request'),
+    path('api/auth/password-reset/confirm/', accounts_views.PasswordResetConfirmView.as_view(), name='password-reset-confirm'),
+    path('api/auth/password-reset/validate/<str:token>/', accounts_views.PasswordResetValidateTokenView.as_view(), name='password-reset-validate'),
 ]
 
 # Ajout des URL pour servir les médias en développement
