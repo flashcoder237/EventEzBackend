@@ -29,6 +29,7 @@ from apps.registrations.views import RegistrationViewSet, TicketTypeViewSet, Tic
 from apps.payments.views import PaymentViewSet, RefundViewSet, InvoiceViewSet
 from apps.feedback.views import EventFeedbackViewSet, EventFlagViewSet, EventValidationViewSet
 from apps.notifications.views import NotificationViewSet, NotificationTemplateViewSet
+from apps.user_messages.views import ConversationViewSet, MessageViewSet, UserMessagingSettingsViewSet
 from rest_framework import routers
 from apps.accounts import views as accounts_views
 
@@ -63,6 +64,10 @@ router.register(r'validations', EventValidationViewSet)
 router.register(r'notifications', NotificationViewSet)
 router.register(r'notification-templates', NotificationTemplateViewSet)
 
+router.register(r'conversations', ConversationViewSet, basename='conversation')
+router.register(r'messages', MessageViewSet, basename='message')
+router.register(r'user-messaging-settings', UserMessagingSettingsViewSet, basename='user-messaging-settings')
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include(router.urls)),
@@ -72,6 +77,7 @@ urlpatterns = [
     path('api/register/organizer/', OrganizerRegistrationView.as_view(), name='organizer-register'),
     path('api/token/refresh/', CustomTokenRefreshView.as_view(), name='token_refresh'),
     path('api/analytics/', include('apps.analytics.urls')),
+    
      # Schéma OpenAPI
     path('api/schema/', SpectacularAPIView.as_view(), name='schema'),
     # Interface Swagger UI
@@ -81,7 +87,7 @@ urlpatterns = [
     path('api/auth/password-reset/validate/<str:token>/', accounts_views.PasswordResetValidateTokenView.as_view(), name='password-reset-validate'),
 ]
 
+
 # Ajout des URL pour servir les médias en développement
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-    

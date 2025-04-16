@@ -175,9 +175,8 @@ class RegistrationCreateSerializer(serializers.ModelSerializer):
                     total_price=total_price
                 )
                 
-                # Mettre à jour le nombre de billets vendus
-                ticket_type.quantity_sold += quantity
-                ticket_type.save()
+                # Ne pas mettre à jour le nombre de billets vendus ici
+                # Cette mise à jour sera faite lors de la validation du paiement
         
         # Mettre à jour le compteur d'inscriptions de l'événement
         event = registration.event

@@ -57,6 +57,7 @@ INSTALLED_APPS = [
     'apps.notifications',
     'apps.core',
     'apps.analytics',
+    'apps.user_messages',
 ]
 
 # Configuration des tâches périodiques Celery

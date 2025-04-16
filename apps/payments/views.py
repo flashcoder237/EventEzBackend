@@ -69,6 +69,13 @@ class PaymentViewSet(viewsets.ModelViewSet):
         registration.confirmed_at = timezone.now()
         registration.save()
         
+        # Mettre à jour le nombre de billets vendus pour chaque type de billet
+        if registration.registration_type == 'billetterie':
+            for ticket_purchase in registration.tickets.all():
+                ticket_type = ticket_purchase.ticket_type
+                ticket_type.quantity_sold += ticket_purchase.quantity
+                ticket_type.save()
+        
         # Générer une facture
         invoice = Invoice.objects.create(
             payment=payment,
@@ -106,6 +113,13 @@ class PaymentViewSet(viewsets.ModelViewSet):
         registration.status = 'confirmed'
         registration.confirmed_at = timezone.now()
         registration.save()
+        
+        # Mettre à jour le nombre de billets vendus pour chaque type de billet
+        if registration.registration_type == 'billetterie':
+            for ticket_purchase in registration.tickets.all():
+                ticket_type = ticket_purchase.ticket_type
+                ticket_type.quantity_sold += ticket_purchase.quantity
+                ticket_type.save()
         
         # Générer une facture
         invoice = Invoice.objects.create(
